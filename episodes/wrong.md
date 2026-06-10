@@ -60,7 +60,8 @@ Most other simple measures fail as well, but that doesn't stop companies from pu
 ## Minimum Viable Rigour
 
 So what *can* we tell about the impact of AI?
-One place to look for an answer is User Experience (UX) research, which has also had to deal with a myriad confounding factors, accelerated timescales, and the need to find something actionable. UX researchers sometimes distinguish two kinds of evaluation:
+One place to look for an answer is User Experience (UX) research, which has also had to deal with a myriad confounding factors, accelerated timescales, and the need to find something actionable. 
+UX researchers sometimes distinguish two kinds of evaluation:
 
 - **Formative evaluation** means studying something in order to improve it. This can be done effectively with small samples, rapid iteration, and a qualitative focus; "what is wrong?" not "how often?"
 
