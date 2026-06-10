@@ -631,7 +631,7 @@ any links that you are not going to use.
 <p>Last updated on 2026-06-10 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/landscape.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 10 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -643,10 +643,10 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What are the implications of genAI tool use for guided practice
-among novice learners?</li>
-<li>How good are current genAI tools at producing solutions to the
-exercises in Carpentries lessons?</li>
+<li>What does the current landscape of genAI tools for coding look
+like?</li>
+<li>What AI tools are researchers and programming novices typically
+using?</li>
 </ul>
 </div>
 </div>
@@ -656,38 +656,103 @@ exercises in Carpentries lessons?</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Explore the capabilities of genAI tools in the context of
-Carpentries lessons.</li>
-<li>Discuss how genAI tool use could impact skill acquisition for novice
-learners.</li>
-<li>Discuss how widespread use of genAI tools for code generation might
-affect the relative importance of the skills we teach.</li>
+<li>Summarise the different modes of interaction that currently exist
+for AI-assisted coding.</li>
+<li>Identify which of these modes are most likely to be used by members
+of the target audience for our workshops.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<p>Guided practice is a central principle in Carpentries Instructor
-Training. We provide learners with guided practice during a workshop.
-And equip them with sufficient expertise to continue guiding their own
-practice after they leave. Novices need this initial guided instruction,
-because they do not have sufficient expertise to know what they do not
-know or to articulate what they want to do.</p>
-<p>GenAI chatbots may be unhelpful to novices who want to learn a new
-topic because:</p>
-<ul>
-<li>They may produce responses that do not account for the learner’s
-lack of expertise</li>
-<li>They often over-cater to the prompt they were given: providing
-additional information, taking additional steps, suggesting next steps
-that may be jumping too far ahead.</li>
-<li>They can reliably generate correct snippets of code, including
-solutions to most if not all of the exercises in our lessons.</li>
-</ul>
-<p>However, novices are unable to assess the quality of a generated
-solution. Are there other ways that they could be encouraged to use
-genAI tools, to better support their learning?</p>
+<div id="acknowledgement" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="acknowledgement" class="callout-inner">
+<h3 class="callout-title">Acknowledgement</h3>
+<div class="callout-content">
+<p>Some of the content in this episode is adapted from <a href="https://coderefinery.github.io/coding-with-ai/introduction/" class="external-link">Code
+Refinery’s <em>Responsible Use of Generative AI in Assisted
+Coding</em></a> (<a href="https://github.com/coderefinery/coding-with-ai/blob/main/LICENSE" class="external-link">licensed
+CC-BY 4.0</a>).</p>
+</div>
+</div>
+</div>
+<p>AI coding assistants come in many forms. Here is an overview of the
+major categories and tools.</p>
+<section><h2 class="section-heading" id="chatbots">Chatbots<a class="anchor" aria-label="anchor" href="#chatbots"></a>
+</h2>
+<hr class="half-width">
+<figure><img src=".././fig/cr_intro_chatbot.png" alt="In this scenario, you type or copy/paste prompts into a chatbot interface (usually a web UI) and copy/paste the code you get back as a response into an IDE or another environment where it can be executed." class="figure mx-auto d-block"></figure><p>The most widely-used mode of interaction with genAI models is the
+chatbot. Most users interact with a chatbot via an app or web
+interface.</p>
+</section><section><h2 class="section-heading" id="ide-integrated-assistants">IDE-integrated Assistants<a class="anchor" aria-label="anchor" href="#ide-integrated-assistants"></a>
+</h2>
+<hr class="half-width">
+<figure><img src=".././fig/cr_intro_ide_integ.png" alt="In this scenario, you work with a GenAI model through an extension or integration to an IDE. The model has access to the project files and processes this information into its context." class="figure mx-auto d-block"></figure><p>Another mode of interaction for those developing software is the use
+of a genAI model via an extension or features of an integrated
+development environment (IDE). In this case, the model processes the
+files in the project you are working on in the IDE and includes that
+information in its context windo. (Roughly speaking, the model’s context
+window is its working memory of information relevant to the whatever
+response it will produce next). Through the IDE, the model can suggest
+auto-completion e.g. of a function body based on the docstring that has
+been written, and provides a chat interface for prompts. There are genAI
+extensions available for most IDEs, as well as some “AI first” IDEs that
+boast more extensive integration.</p>
+</section><section><h2 class="section-heading" id="agentic-coding-tools">Agentic Coding Tools<a class="anchor" aria-label="anchor" href="#agentic-coding-tools"></a>
+</h2>
+<hr class="half-width">
+<figure><img src=".././fig/cr_intro_agentic.png" alt="In this scenario, you provide a high-level description of a task that you want an AI agent to perform. The agent is able to execute software on the system, read and edit files, perform version control operations, etc." class="figure mx-auto d-block"></figure><p>Coding agents are applications that allow the model to directly use
+tools, executing commands on the system and processing feedback from
+those commands (e.g. reading error messages, the contents of output
+files, etc). The user provides a description of the task they want to
+achieve to the agent, which processes those instructions and acts on the
+user’s behalf. The agent may read and write files, including new
+programs, run commands on the system, process feedback, potentially run
+new commands based on the results, and so on until it gets stuck, is
+interrupted, or determines that the task has been completed.</p>
+<p>This is the most powerful mode of interaction and the mode with the
+highest risk, since the model can act quickly in ways that affect the
+system it is running on.</p>
+<div id="callout2" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>In reality, AI coding tools exist on a spectrum with many hybrids:
+PR-native agents, review bots, orchestration tools, local-first options,
+and more. The boundary between chatbots and agents is blurred too. For
+example, browser-based chat interfaces connect to models with the
+ability to run tools in a cloud instance, search the internet, attach
+files, etc.</p>
+<p>See Code Refinery’s resource, <a href="https://coderefinery.github.io/coding-with-ai/appendix-spectrum/" class="external-link"><em>The
+Full Spectrum of AI Coding Tools</em></a> for an extended taxonomy.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="what-are-learners-using">What Are Learners Using?<a class="anchor" aria-label="anchor" href="#what-are-learners-using"></a>
+</h2>
+<hr class="half-width">
+<p>The technological landscape is evolving quickly, with new tools and
+models appearing very frequently. In this context, it can be difficult
+to access hard data that could provide insights into what people are
+using and how.</p>
+<p>In survey results published in April 2026, O’Brien and colleagues
+reported that the vast majority of scientists who reported using GenAI
+to assist programming in their research were using a chatbot (mostly
+ChatGPT) as their primary tool <a href="reference.html#OBrien2026">OBrien2026</a>. Experience reports
+shared by Carpentries Instructors and other educators also suggest that
+chatbots are the primary mode of engagement for learners.</p>
+<p>While some learners may be trying out more specialised tools intended
+for AI-assisted software development (e.g. Cursor and Claude Code), the
+current focus of this bonus module will be on learners’ use of chatbots
+in workshops.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -696,19 +761,25 @@ genAI tools, to better support their learning?</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>Novices using chatbots in a workshop are less likely to benefit from
-guided practice.</li>
-<li>Current chatbot tools can produce functioning solutions to many
-exercises in Carpentries lessons.</li>
+<li>People are using chatbots, IDE integrations, and coding agents to
+assist with software development and data analysis.</li>
+<li>Data is scarce and the landscape is constantly shifting, but at the
+moment it seems that chatbots are the most common mode of engagement
+with genAI for our target learners.</li>
 </ul>
 </div>
 </div>
-</div></section><section id="aio-practice"><p>Content from <a href="practice.html">Building Skill with Practice</a></p>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-practice"><p>Content from <a href="practice.html">Building Skill with Practice</a></p>
 <hr>
 <p>Last updated on 2026-06-10 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/practice.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 35 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -765,6 +836,50 @@ solutions to most if not all of the exercises in our lessons.</li>
 <p>However, novices are unable to assess the quality of a generated
 solution. Are there other ways that they could be encouraged to use
 genAI tools, to better support their learning?</p>
+<p>TODO: exercise here, testing chatbots ability to solve existing
+exercises in Carpentries lessons.</p>
+<div id="what-does-this-change" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="what-does-this-change" class="callout-inner">
+<h3 class="callout-title">What Does This Change?</h3>
+<div class="callout-content">
+<p>How does the ability of genAI tools to generate source code influence
+the relative importance of the following different skills to a novice
+learning to program?</p>
+<ul>
+<li>Writing a syntactically valid for loop.</li>
+<li>Tracing the order of execution.</li>
+<li>Choosing descriptive names for variables.</li>
+<li>Debugging, e.g. interpreting error messages.</li>
+</ul>
+<p>Referring back to your answers, what is one approach you could take
+as an Instructor during a workshop, to (de)emphasise the importance of
+one or more of the skills listed above?</p>
+</div>
+</div>
+</div>
+<div id="how-much-expertise-do-you-need" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="how-much-expertise-do-you-need" class="callout-inner">
+<h3 class="callout-title">How Much Expertise Do You Need?</h3>
+<div class="callout-content">
+<p>Prompt your chatbot with a coding task. You can choose an exercise
+from a lesson (Carpentries or otherwise), or come up with your own task.
+Consider the output produced: how much knowledge of programming concepts
+do you think you would need to have, to be able to understand or
+validate what the output is doing?</p>
+<p>On this chart (FIXME: add link to tldraw chart), mark your result
+based on your judgement of how complex your coding task was and how much
+expertise would be needed to understand the response.</p>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -915,7 +1030,7 @@ and avoid giving up their agency to genAI tools.</li>
 <p>Last updated on 2026-06-10 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/memory.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 55 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -927,7 +1042,8 @@ and avoid giving up their agency to genAI tools.</li>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>TODO</li>
+<li>How could learners’ use of chatbots influence considerations of
+cognitive load in a workshop?</li>
 </ul>
 </div>
 </div>
@@ -937,7 +1053,10 @@ and avoid giving up their agency to genAI tools.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>TODO</li>
+<li>Assess the suitability of chatbot responses to a novice learner’s
+understanding.</li>
+<li>Articulate a personal view of what chatbot use should be encouraged
+in a workshop.</li>
 </ul>
 </div>
 </div>
@@ -1002,7 +1121,7 @@ extraneous cognitive load) for a novice learner?</li>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
 <div class="accordion-body">
 <p>An example, using an exercise <a href="https://swcarpentry.github.io/r-novice-inflammation/04-cond.html" class="external-link">in
 the Software Carpentry Programming with R lesson</a>:</p>
@@ -1118,7 +1237,8 @@ points did you disagree?</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>TODO</li>
+<li>Chatbot use that removes germane cognitive load may impede
+learning.</li>
 </ul>
 </div>
 </div>
@@ -1127,7 +1247,7 @@ points did you disagree?</p>
 <p>Last updated on 2026-06-10 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/feedback.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 30 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -1139,7 +1259,8 @@ points did you disagree?</p>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>TODO</li>
+<li>How might learners’ use of genAI tools impact the pathways and
+mechanisms of feedback in a workshop?</li>
 </ul>
 </div>
 </div>
@@ -1149,7 +1270,10 @@ points did you disagree?</p>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>TODO</li>
+<li>Identify possible impacts of genAI chatbot use on the established
+feedback mechanisms in a workshop.</li>
+<li>Discuss how Instructors can encourage learners to continue to
+provide feedback in a workshop while interacting with a chatbot.</li>
 </ul>
 </div>
 </div>
@@ -1204,7 +1328,7 @@ workshop is that it removes a crucial pathway of feedback to the
 Instructor. If a learner turns to a chatbot for help before they turn to
 a helper or Instructor, the Instructor will never know what question
 they had, what they were finding difficult, or where they were stuck.
-This means the Instructor can’t identify trends in what the class is
+This means the Instructor cannot identify trends in what the class is
 finding difficult and misses the opportunity to clarify the key
 points.</p>
 <p>This is another reason why it is so important to create and maintain
@@ -1240,7 +1364,9 @@ in a workshop?</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>TODO</li>
+<li>It can be difficut to gather helpful feedback if learners are using
+a chatbot instead of requesting assistance from Instructors and
+helpers.</li>
 </ul>
 </div>
 </div>
@@ -1286,10 +1412,9 @@ the classroom.</li>
 </div>
 </div>
 </div>
-<p>In 2023, GitHub announced their tools made developers 55% faster
-[Peng2023]. That number appeared in every executive presentation for a
-year. This episode teaches you how to tell if you should believe it or
-not.</p>
+<p>In 2023, GitHub announced their tools made developers 55% faster <a href="reference.html#Peng2023">Peng2023</a>. That number appeared in
+every executive presentation for a year. This episode teaches you how to
+tell if you should believe it or not.</p>
 <section><h2 class="section-heading" id="evaluating-claims">Evaluating Claims<a class="anchor" aria-label="anchor" href="#evaluating-claims"></a>
 </h2>
 <hr class="half-width">
@@ -1322,10 +1447,10 @@ funding to look at themselves this carefully.</p>
 measurable. But software output is not homogeneous: a ten-line bugfix
 may be worth more than a thousand-line feature. An entire book basically
 says “measuring programmers’ productivity is really hard” over and over
-again [Sadowski2019]. One reason is that much of software work is
-invisible: a field study found developers only spend 25% of their day
-actually writing code [Meyer2017]. Reading, reviewing, and helping
-colleagues doesn’t show up in simple metrics.</p>
+again <a href="reference.html#Sadowski2019">Sadowski2019</a>. One reason
+is that much of software work is invisible: a field study found
+developers only spend 25% of their day actually writing code <a href="reference.html#Meyer2017">Meyer2017</a>. Reading, reviewing, and
+helping colleagues doesn’t show up in simple metrics.</p>
 <p>The first question we need to ask is whether the measurement actually
 captures the concept? Lines of code written per day fails this test: you
 can write more lines by making code worse. Most other simple measures
@@ -1371,9 +1496,10 @@ formative and summative evaluation for assessing learning. User
 experience groups in industry use the term “guerilla research” for
 formative evaluation, and have developed rough-and-ready techniques for
 getting <em>something</em> useful with the time and resources they have.
-For example, [Nielsen1993] found that a think-aloud session with five
-participants is typically enough to identify most problems in a specific
-workflow for a specific user group.</p>
+For example, <a href="reference.html#Nielsen1993">Nielsen1993</a> found
+that a think-aloud session with five participants is typically enough to
+identify most problems in a specific workflow for a specific user
+group.</p>
 </section><section><h2 class="section-heading" id="in-the-classroom">In the Classroom<a class="anchor" aria-label="anchor" href="#in-the-classroom"></a>
 </h2>
 <hr class="half-width">
@@ -1444,7 +1570,7 @@ any links that you are not going to use.
 <p>Last updated on 2026-06-10 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/wrap-up.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 40 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -1456,7 +1582,8 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>TODO</li>
+<li>How should Carpentries workshops change to account for the use of
+genAI tools?</li>
 </ul>
 </div>
 </div>
@@ -1466,14 +1593,75 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>TODO</li>
+<li>Discuss what the most effective teaching approach might be in the
+future.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<p>TODO</p>
+<p>We have revisited some of the key principles from Instructor
+Training, exploring what access to genAI chatbots means for novice
+learners’ opportunities for guided practice and management of cognitive
+load. We have discussed strategies that Instructors could adopt to
+engage learners on the topic of chatbot use and to encourage them to
+continuing building their own expertise.</p>
+<p>As we finish up this bonus module, it is worth spending some time
+thinking about other ways that our workshops might need to change if the
+current trend of genAI tool adoption continues.</p>
+<div id="participatory-live-demo-with-genai" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="participatory-live-demo-with-genai" class="callout-inner">
+<h3 class="callout-title">Participatory Live Demo with GenAI</h3>
+<div class="callout-content">
+<p>What would participatory live demonstration look like with the
+Instructor using a genAI chatbot? In your opinion, what would be some
+advantages and disadvantages of this approach to teaching, compared to
+AI-free methods?</p>
+</div>
+</div>
+</div>
+<div id="what-are-the-essential-skills-now" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="what-are-the-essential-skills-now" class="callout-inner">
+<h3 class="callout-title">What Are The Essential Skills Now?</h3>
+<div class="callout-content">
+<p>Consider the key skills that we teach in a Data Carpentry, HPC
+Carpentry, Library Carpentry, or Software Carpentry workshop. How, if at
+all, should these skills and the ways we teach them change in the
+context of widespread genAI use?</p>
+<ul>
+<li>What do we really want learners to be able to do when they leave a
+workshop?</li>
+<li>What practices do we want them to adopt?</li>
+<li>What becomes more important? What could be de-prioritised?</li>
+<li>Are major changes now necessary to the curriculum for these
+workshops?</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="final-reflection" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div id="final-reflection" class="callout-inner">
+<h3 class="callout-title">Final Reflection</h3>
+<div class="callout-content">
+<p>Considering what you have learned and ideas you have gathered through
+participation in this training, make a list of things you are going to
+try in your next workshop.</p>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -1482,7 +1670,8 @@ any links that you are not going to use.
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>TODO</li>
+<li>The way people code is changing but many of the good practices we
+aim to teach remain as important as ever.</li>
 </ul>
 </div>
 </div>
