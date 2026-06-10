@@ -35,7 +35,9 @@ Claims can be evaluated from several angles:
 * **Construct validity**: Does the measurement actually capture the claim?
 * **External validity**: Who are the subjects, and are they representative of the population the conclusions address?
 
-This is all Research Methods 101, particularly for people in disciplines like psychology or medicine. However, most undergraduate programs in computer science don't teach research methods, so most programmers don't even know what they don't know. At the same time, most organizations (even ones staffed by scientists) don't have the time or funding to look at themselves this carefully.
+This is all Research Methods 101, particularly for people in disciplines like psychology or medicine. 
+However, most undergraduate programs in computer science don't teach research methods, so most programmers don't even know what they don't know. 
+At the same time, most organizations (even ones staffed by scientists) don't have the time or funding to look at themselves this carefully.
 
 ## Why Productivity is Hard to Define
 
