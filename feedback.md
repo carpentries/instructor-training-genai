@@ -1,18 +1,19 @@
 ---
 title: 'Building Skill with Feedback'
 teaching: 10
-exercises: 10
+exercises: 20
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- TODO
+- How might learners' use of genAI tools impact the pathways and mechanisms of feedback in a workshop?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- TODO
+- Identify possible impacts of genAI chatbot use on the established feedback mechanisms in a workshop.
+- Discuss how Instructors can encourage learners to continue to provide feedback in a workshop while interacting with a chatbot.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -46,7 +47,7 @@ Feedback mechanisms for Instructors include:
 
 One challenge that learners’ use of genAI tools presents to a workshop is that it removes a crucial pathway of feedback to the Instructor.
 If a learner turns to a chatbot for help before they turn to a helper or Instructor, the Instructor will never know what question they had, what they were finding difficult, or where they were stuck.
-This means the Instructor can’t identify trends in what the class is finding difficult and misses the opportunity to clarify the key points.
+This means the Instructor cannot identify trends in what the class is finding difficult and misses the opportunity to clarify the key points.
 
 This is another reason why it is so important to create and maintain a positive learning environment in a workshop.
 If Instructors and helpers appear approachable to learners, encouraging them to speak up when they are stuck and to share what they are getting from genAI tools if/when they use them, these feedback pathwas are more likely to stay open.
@@ -63,7 +64,7 @@ Can you identify any ways that learners' use of genAI could be harnessed as a te
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- TODO
+- It can be difficut to gather helpful feedback if learners are using a chatbot instead of requesting assistance from Instructors and helpers.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

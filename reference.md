@@ -28,6 +28,16 @@ title: Reference
     are sufficient to identify most major usability problems in a focused task set
     using formative testing with a reasonably homogeneous user group.*
 
+<span id="OBrien2026">OBrien2026</span>
+:   Gabrielle O'Brien, Alexis Parker, Nasir Eisty, and Jeffrey Carver:
+    "A survey of generative AI adoption and perceived productivity among scientists who program."
+    (preprint),
+    [arxiv.org/abs/2512.19644](https://doi.org/10.48550/arXiv.2512.19644).
+    <br>
+    *Survey of 868 scientists who program as part of their work, 
+    reporting that 80% use GenAI tools in their programming, 
+    with 77.5% of those using general purposing tools like ChatGPT over specialised coding tools.*
+
 <span id="Peng2023">Peng2023</span>
 :   Sida Peng, Eirini Kalliamvakou, Peter Cihon, and Mert Demirer:
     "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot."
@@ -48,8 +58,3 @@ title: Reference
     *Edited volume collecting research and practitioner perspectives on
     how to understand, define, and measure software developer
     productivity.*
-
-
-## Glossary
-
-This is a placeholder file. Please add content here.

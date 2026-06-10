@@ -1,7 +1,7 @@
 ---
 title: 'Building Skill with Practice'
 teaching: 10
-exercises: 10
+exercises: 25
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -32,6 +32,35 @@ GenAI chatbots may be unhelpful to novices who want to learn a new topic because
 
 However, novices are unable to assess the quality of a generated solution.
 Are there other ways that they could be encouraged to use genAI tools, to better support their learning?
+
+TODO: exercise here, testing chatbots ability to solve existing exercises in Carpentries lessons.
+
+::::::::::::::::::::::::::::::::::::::::::::::::: discussion
+
+### What Does This Change?
+How does the ability of genAI tools to generate source code influence the relative importance of the following different skills to a novice learning to program?
+
+* Writing a syntactically valid for loop.
+* Tracing the order of execution.
+* Choosing descriptive names for variables.
+* Debugging, e.g. interpreting error messages.
+
+Referring back to your answers, what is one approach you could take as an Instructor during a workshop, to (de)emphasise the importance of one or more of the skills listed above?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::::::::: challenge
+
+### How Much Expertise Do You Need?
+Prompt your chatbot with a coding task.
+You can choose an exercise from a lesson (Carpentries or otherwise), or come up with your own task. 
+Consider the output produced: how much knowledge of programming concepts do you think you would need to have, to be able to understand or validate what the output is doing?
+
+On this chart (FIXME: add link to tldraw chart), mark your result based on your judgement of how complex your coding task was and how much expertise would be needed to understand the response.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
