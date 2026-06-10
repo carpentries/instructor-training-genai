@@ -14,5 +14,5 @@
 "episodes/wrap-up.md" "3ee658557ce6359c2a21808dd589dedb" "site/built/wrap-up.md" "2026-06-10"
 "instructors/instructor-notes.md" "5cf113fd22defb29d17b64597f3c9bc0" "site/built/instructor-notes.md" "2026-06-10"
 "learners/reference.md" "8619f4cc4972d949fd75b74ad3b761bb" "site/built/reference.md" "2026-06-10"
-"learners/setup.md" "5864dbf846acb4b155e39ef26894dbe5" "site/built/setup.md" "2026-06-10"
+"learners/setup.md" "cd2a3c8dd8a90c88d23c4aea25b71845" "site/built/setup.md" "2026-06-10"
 "profiles/learner-profiles.md" "5fe5bf7537072422b91ed393ada03f9a" "site/built/learner-profiles.md" "2026-06-10"
