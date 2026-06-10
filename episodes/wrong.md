@@ -22,7 +22,7 @@ exercises: 10
 
 <!-- add links please --->
 
-In 2023, GitHub announced their tools made developers 55% faster [Peng2023].
+In 2023, GitHub announced their tools made developers 55% faster [Peng2023](../learners/reference.md#Peng2023).
 That number appeared in every executive presentation for a year.
 This episode teaches you how to tell if you should believe it or not.
 
@@ -43,8 +43,8 @@ At the same time, most organizations (even ones staffed by scientists) don't hav
 
 Manufacturing productivity means widgets per hour: both terms are measurable.
 But software output is not homogeneous: a ten-line bugfix may be worth more than a thousand-line feature.
-An entire book basically says "measuring programmers' productivity is really hard" over and over again [Sadowski2019].
-One reason is that much of software work is invisible: a field study found developers only spend 25% of their day actually writing code [Meyer2017].
+An entire book basically says "measuring programmers' productivity is really hard" over and over again [Sadowski2019](../learners/reference.md#Sadowski2019).
+One reason is that much of software work is invisible: a field study found developers only spend 25% of their day actually writing code [Meyer2017](../learners/reference.md#Meyer2017).
 Reading, reviewing, and helping colleagues doesn't show up in simple metrics.
 
 The first question we need to ask is whether the measurement actually captures the concept?
@@ -69,7 +69,7 @@ UX researchers sometimes distinguish two kinds of evaluation:
 
 You may have identified parallels to the distinction between formative and summative evaluation for assessing learning.
 User experience groups in industry use the term "guerilla research" for formative evaluation, and have developed rough-and-ready techniques for getting *something* useful with the time and resources they have.
-For example, [Nielsen1993] found that a think-aloud session with five participants is typically enough to identify most problems in a specific workflow for a specific user group.
+For example, [Nielsen1993](../learners/reference.md#Nielsen1993) found that a think-aloud session with five participants is typically enough to identify most problems in a specific workflow for a specific user group.
 
 ## In the Classroom
 

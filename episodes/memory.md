@@ -1,18 +1,19 @@
 ---
 title: 'Memory and Cognitive Load'
 teaching: 10
-exercises: 10
+exercises: 45
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- TODO
+- How could learners' use of chatbots influence considerations of cognitive load in a workshop?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- TODO
+- Assess the suitability of chatbot responses to a novice learner's understanding.
+- Articulate a personal view of what chatbot use should be encouraged in a workshop.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -130,7 +131,7 @@ If not, on what points did you disagree?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- TODO
+- Chatbot use that removes germane cognitive load may impede learning.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
