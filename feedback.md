@@ -50,14 +50,14 @@ If a learner turns to a chatbot for help before they turn to a helper or Instruc
 This means the Instructor cannot identify trends in what the class is finding difficult and misses the opportunity to clarify the key points.
 
 This is another reason why it is so important to create and maintain a positive learning environment in a workshop.
-If Instructors and helpers appear approachable to learners, encouraging them to speak up when they are stuck and to share what they are getting from genAI tools if/when they use them, these feedback pathwas are more likely to stay open.
+If Instructors and helpers appear approachable to learners, encouraging them to speak up when they are stuck and to share what they are getting from genAI tools if/when they use them, these feedback pathways are more likely to stay open.
 Nevertheless, you and your helpers may make all of these efforts and still observe learners using a chatbot before talking to a human.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
 ### How Can We Encourage Feedback?
 How could Instructors encourage learners to speak to them or a helper before resorting to a chatbot?
-What strategies could Instructors implement in a workshop, to encourage learners to be open about when and how they are using genAI while they learn?
+What strategies could Instructors implement in a workshop to encourage learners to be open about when and how they are using genAI while they learn?
 Can you identify any ways that learners' use of genAI could be harnessed as a teaching opportunity in a workshop?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
