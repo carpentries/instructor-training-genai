@@ -2,7 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-An extension to [The Carpentries Instructor Training][it-curriculum], designed to empower Instructors to respond to learners' use of generative AI (genAI) chatbot tools in workshops.
+This module is an extension to [The Carpentries Instructor Training][it-curriculum], designed to empower Instructors to respond to learners' use of generative AI (genAI) chatbot tools in workshops.
 
 After following this bonus module, Instructors will be able to:
 
@@ -33,7 +33,7 @@ If it has been a while since you participated in Instructor Training/Learner Cen
 
 ### Chatbot Use Required
 Exercises and activities in this bonus module require the use of a genAI chatbot tool by participants.
-Direct use of the technology grounds the discussion and equips Instructors with an understanding of learners' experiences with these tools, their capabilities and idiosyncracies.
-Participants who prefer not to create an account on an chatbot service can use the [duck.ai][duck-ai] service, which does not require a login and has greater privacy protections than some other chatbot systems.
+Direct use of the technology grounds the discussion and equips Instructors with an understanding of learners' experiences with these tools, their capabilities, and their idiosyncracies.
+Participants who prefer not to create an account on a chatbot service can use the [duck.ai][duck-ai] service, which does not require a login and has greater privacy protections than some other chatbot systems.
 
 ::::::::::::::::::::::::::::::::::::::::

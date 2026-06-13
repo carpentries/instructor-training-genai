@@ -17,7 +17,7 @@ exercises: 15
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-**Note:** some of the content on this page is adapted from [The Carpentries Instructor Training curriculum](https://carpentries.github.io/instructor-training/01-welcome.html).
+**Note:** Some of the content on this page is adapted from [The Carpentries Instructor Training curriculum](https://carpentries.github.io/instructor-training/01-welcome.html).
 
 ::::::::::::::::::::::::::::::::::::::  discussion
 
@@ -69,7 +69,7 @@ Code of Conduct Committee by completing [this form][form-coc].
 
 ## Introductions
 
-Hello everyone, and welcome to The Carpentries Bonus Module to Instructor Training on adapting to genAI use in a workshop.  
+Hello everyone, and welcome to The Carpentries Bonus Module to Instructor Training on adapting to genAI use by learners in a workshop.
 We are very pleased to have you with us.
 
 ::::::::::::::::::::::::::::::::::::::  discussion
@@ -87,7 +87,7 @@ To begin class, each Trainer should give a brief introduction of themselves.
 ### Why Develop This Bonus Module?
 
 Opinions on genAI models and tools vary widely within The Carpentries community.
-Many Carpentries community members have strong and justified concerns about negative environmental, societal, legal, and personal impacts of the development and use of LLMs.
+Many Carpentries community members have strong and justified concerns about negative environmental, societal, legal, and personal impacts of the development and use of genAI tools.
 Others are excited by the prospect of new tools they expect will lower the barrier to generating source code.
 
 We have developed this Bonus Module in response to reports from Instructors of widespread use of genAI tools like chatbots during workshops.
@@ -102,7 +102,7 @@ Now, we would like to get to know all of you.
 ### Temperature Check
 For the multiple choice questions below, please place an "X" next to the response(s) that best apply to you.
 
-1. **Have you observed learners/students using genAI chatbots during a workshop or another teaching setting?**
+1. **Have you observed learners/students using genAI tools during a workshop or another teaching setting?**
    **If so, how widespread would you estimate this use was?**
      * I have not taught recently.
      * I have not observed learners using these tools.
