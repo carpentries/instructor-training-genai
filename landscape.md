@@ -76,7 +76,7 @@ See Code Refinery's resource, [_The Full Spectrum of AI Coding Tools_](https://c
 The technological landscape is evolving quickly, with new tools and models appearing very frequently.
 In this context, it can be difficult to access hard data that could provide insights into what people are using and how.
 
-In survey results published in April 2026, O'Brien and colleagues reported that the vast majority of scientists who reported using genAI to assist programming in their research were using a chatbot (mostly ChatGPT) as their primary tool [(OBrien 2026)](../learners/reference.md#OBrien2026).
+In survey results published in April 2026, O'Brien and colleagues reported that the vast majority of scientists who reported using genAI to assist programming in their research were using a chatbot (mostly ChatGPT) as their primary tool [(O'Brien et al 2026)](../learners/reference.md#OBrien2026).
 Experience reports shared by Carpentries Instructors and other educators also suggest that chatbots are the primary mode of engagement for learners.
 
 While some learners may be trying out more specialised tools intended for AI-assisted software development (e.g., Cursor and Claude Code), the current focus of this bonus module will be on learners' use of chatbots in workshops.
