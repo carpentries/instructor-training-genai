@@ -34,7 +34,7 @@ If learners feed the exercises straight into a chatbot, they are much less likel
 
 Carpentries lessons and the exercises within them have been carefully designed to help Instructors manage learners’ cognitive load throughout a workshop.
 In many cases, there will be more than one possible way to solve an exercise.
-But learners cannot be expected to be have all of the conceptual knowledge required to devise some of these possible solutions.
+But learners cannot be expected to have all of the conceptual knowledge required to devise some of these possible solutions.
 
 For example, a Python exercise might be solved in one line with a list comprehension or a lambda function, but the lesson uses neither because a more easily interpretable solution is required for novice learners.
 
@@ -47,7 +47,7 @@ Consider the code that the chatbot produced.
 * What strengths and weaknesses do you observe in the chatbot’s solutions?
 * What reasoning are you using to evaluate or classify them?
 * Would a novice learner be able to use the same reasoning to evaluate the response?
-* Does the solution produced by the chatbot include additional complexity, concepts, etc that could be distracting (introducing extraneous cognitive load) for a novice learner?
+* Does the solution produced by the chatbot include additional complexity, concepts, etc. that could be distracting (introducing extraneous cognitive load) for a novice learner?
 
 ::::::::::::::::::::::::: hint
 
@@ -115,7 +115,7 @@ In your opinion, what if any difference is there between a learner pasting the t
 :::::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
 ### What is Acceptable?
-**Think**: take a few minutes to think about your answer to the following questions:
+*Take a few minutes to **think** about your answer to the following questions:
 
 * Is it possible for novice learners to use a genAI chatbot in a workshop, without threatening their ability to learn the skills we aim to teach? 
 * If so, what would that use look like?

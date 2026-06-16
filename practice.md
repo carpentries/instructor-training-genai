@@ -20,14 +20,13 @@ exercises: 25
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 Guided practice is a central principle in Carpentries Instructor Training.
-We provide learners with guided practice during a workshop.
-And equip them with sufficient expertise to continue guiding their own practice after they leave.
-Novices need this initial guided instruction, because they do not have sufficient expertise to know what they do not know or to articulate what they want to do.
+We provide learners with guided practice during a workshop and equip them with sufficient expertise to continue guiding their own practice after they leave.
+Novices need this initial guided instruction because they do not have sufficient expertise to know what they do not know or to articulate what they want to do.
 
 GenAI chatbots may be unhelpful to novices who want to learn a new topic because:
 
-* They may produce responses that do not account for the learner’s lack of expertise
-* They often over-cater to the prompt they were given: providing additional information, taking additional steps, suggesting next steps that may be jumping too far ahead.
+* They may produce responses that do not account for the learner’s lack of expertise.
+* They often over-cater to the prompt they were given: providing additional information, taking additional steps, and suggesting next steps that may be jumping too far ahead.
 * They can reliably generate correct snippets of code, including solutions to most if not all of the exercises in our lessons.
 
 However, novices are unable to assess the quality of a generated solution.
@@ -43,9 +42,9 @@ How does the ability of genAI tools to generate source code influence the relati
 * Writing a syntactically valid for loop.
 * Tracing the order of execution.
 * Choosing descriptive names for variables.
-* Debugging, e.g. interpreting error messages.
+* Debugging, e.g., interpreting error messages.
 
-Referring back to your answers, what is one approach you could take as an Instructor during a workshop, to (de)emphasise the importance of one or more of the skills listed above?
+Referring back to your answers, what is one approach you could take as an Instructor during a workshop to (de)emphasise the importance of one or more of the skills listed above?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -54,7 +53,7 @@ Referring back to your answers, what is one approach you could take as an Instru
 ### How Much Expertise Do You Need?
 Prompt your chatbot with a coding task.
 You can choose an exercise from a lesson (Carpentries or otherwise), or come up with your own task. 
-Consider the output produced: how much knowledge of programming concepts do you think you would need to have, to be able to understand or validate what the output is doing?
+Consider the output produced: How much knowledge of programming concepts do you think you would need to have to be able to understand or validate what the output is doing?
 
 On this chart (FIXME: add link to tldraw chart), mark your result based on your judgement of how complex your coding task was and how much expertise would be needed to understand the response.
 

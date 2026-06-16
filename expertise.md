@@ -41,8 +41,8 @@ To keep improving the results they receive, and take responsibility for AI-gener
 :::::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
 ### Copying/pasting Exercises
-One challenge that Instructors now report encountering in workshops, is that some learners will choose to copy and paste the text of an exercise into a chatbot, and the code it produces to “solve” the exercise. 
-What are some ways that you might notice that this is happening in a workshop?
+One challenge that Instructors now report encountering in workshops is that some learners will choose to copy and paste the text of an exercise into a chatbot, then copy and paste the code it produces back out again, to “solve” the exercise. 
+What are some ways that you might notice this is happening in a workshop?
 Suggest one strategy that an Instructor could employ to discourage or prevent learners from doing this.
 
 
@@ -50,7 +50,7 @@ Suggest one strategy that an Instructor could employ to discourage or prevent le
 
 Indications of an AI-generated solution include:
 
-* Use of functions, syntax, language features, etc that have not yet been introduced in the workshop.
+* Use of functions, syntax, language features, etc. that have not yet been introduced in the workshop.
 * Complex code (more on this later).
 * An abundance of comments explaining the lines of code.
 * Inability for the learner to explain how the solution works.

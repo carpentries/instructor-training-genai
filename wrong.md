@@ -22,7 +22,7 @@ exercises: 10
 
 <!-- add links please --->
 
-In 2023, GitHub announced their tools made developers 55% faster [Peng2023](../learners/reference.md#Peng2023).
+In 2023, GitHub announced their tools made developers 55% faster [(Peng 2023)](../learners/reference.md#Peng2023).
 That number appeared in every executive presentation for a year.
 This episode teaches you how to tell if you should believe it or not.
 
@@ -43,8 +43,8 @@ At the same time, most organizations (even ones staffed by scientists) don't hav
 
 Manufacturing productivity means widgets per hour: both terms are measurable.
 But software output is not homogeneous: a ten-line bugfix may be worth more than a thousand-line feature.
-An entire book basically says "measuring programmers' productivity is really hard" over and over again [Sadowski2019](../learners/reference.md#Sadowski2019).
-One reason is that much of software work is invisible: a field study found developers only spend 25% of their day actually writing code [Meyer2017](../learners/reference.md#Meyer2017).
+An entire book basically says "measuring programmers' productivity is really hard" over and over again [(Sadowski 2019)](../learners/reference.md#Sadowski2019).
+One reason is that much of software work is invisible: a field study found developers only spend 25% of their day actually writing code [(Meyer 2017)](../learners/reference.md#Meyer2017).
 Reading, reviewing, and helping colleagues doesn't show up in simple metrics.
 
 The first question we need to ask is whether the measurement actually captures the concept?
@@ -52,7 +52,7 @@ Lines of code written per day fails this test: you can write more lines by makin
 Most other simple measures fail as well, but that doesn't stop companies from publishing claims based on them:
 
 * Timing artificial tasks: a 90-minute greenfield task (i.e., one that starts with an empty file and builds something from scratch) does not predict real work, which almost always involves understanding and modifying existing code.
-* Measuring only the easy half: AI makes code generation faster, but doesn't count review time, debugging confidently wrong suggestions, and security vulnerabilities.
+* Measuring only the easy half: AI makes code generation faster, but this doesn't take into account review time, time spent debugging confidently wrong suggestions, and time spent addressing security vulnerabilities.
 * Before/after measures with no control group: you cannot separate the effect of AI from the effects of other things that changed (such as hiring new team members, changes to infrastructure, etc.).
 * Asking developers if they feel more productive: feeling productive is not the same as being productive, and the **novelty effect** inflates self-reports for weeks.
 * Comparing people who volunteer to try a new tool or technique to those who do not: early adopters are usually already higher performers, and again, the novelty effect produces misleading results on a timescale of weeks.
@@ -69,7 +69,7 @@ UX researchers sometimes distinguish two kinds of evaluation:
 
 You may have identified parallels to the distinction between formative and summative evaluation for assessing learning.
 User experience groups in industry use the term "guerilla research" for formative evaluation, and have developed rough-and-ready techniques for getting *something* useful with the time and resources they have.
-For example, [Nielsen1993](../learners/reference.md#Nielsen1993) found that a think-aloud session with five participants is typically enough to identify most problems in a specific workflow for a specific user group.
+For example, [Nielsen (1993)](../learners/reference.md#Nielsen1993) found that a think-aloud session with five participants is typically enough to identify most problems in a specific workflow for a specific user group.
 
 ## In the Classroom
 
