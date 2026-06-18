@@ -442,7 +442,7 @@ listed when participants provide them.</p>
   Further reading on pronouns
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <p>The resources below can provide additional guidance on respectful
 pronoun usage:</p>
@@ -773,7 +773,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-practice"><p>Content from <a href="practice.html">Building Skill with Practice</a></p>
 <hr>
-<p>Last updated on 2026-06-16 |
+<p>Last updated on 2026-06-18 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/practice.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -832,8 +832,256 @@ solutions to most if not all of the exercises in our lessons.</li>
 <p>However, novices are unable to assess the quality of a generated
 solution. Are there other ways that they could be encouraged to use
 genAI tools, to better support their learning?</p>
-<p>TODO: exercise here, testing chatbots ability to solve existing
-exercises in Carpentries lessons.</p>
+<div id="how-good-is-genai-at-solving-carpentries-exercises" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="how-good-is-genai-at-solving-carpentries-exercises" class="callout-inner">
+<h3 class="callout-title">How Good is GenAI at Solving Carpentries
+Exercises?</h3>
+<div class="callout-content">
+<p>Choose one of the suggested lessons in the spoiler below. Try passing
+the text of some of the exercises from your chosen lesson to <a href="https://duck.ai/" class="external-link">duck.ai</a> or another genAI chatbot of your
+choice.</p>
+<ul>
+<li>How many exercises from the lesson was the chatbot able to
+solve?</li>
+<li>Did you find any exercises that the chatbot could not solve?</li>
+</ul>
+<p>When reporting your results, include details of any custom settings
+you used on the chatbot. How might those have affected the output you
+received? Similarly, did you need to provide any additional information
+to the chatbot? E.g. upload example data, paste extra content from
+elsewhere in the episode, etc.</p>
+</div>
+</div>
+</div>
+<div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
+  <h3 class="accordion-header" id="headingSpoiler1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Suggested Lessons </h3>
+</button>
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div class="accordion-body">
+<p>General notes:</p>
+<ul>
+<li>At the time of writing, some chatbots do not support uploading of
+csv files (e.g. duck.ai). For lessons with csv datasets, you could try
+describing the dataset, pasting in the first several lines of data, or
+using a chatbot that supports csv uploads (e.g. Claude.ai).</li>
+<li>Some lessons don’t work well for this exercise because they require
+more specialized set-up than there is time available for this exercise.
+However, many exercises in these lessons can still be completed by genAI
+tools once the setup is accomplished. If you have extra time, feel free
+to test them, and think about whether an additional steps you needed to
+take could realistically be expected of learners in a workshop.</li>
+</ul>
+<p>The following lessons work well for this exercise:</p>
+<ul>
+<li>Data Carpentry:
+<ul>
+<li><a href="https://datacarpentry.github.io/R-ecology-lesson/" class="external-link">Data
+Analysis and Visualization in R for Ecologists</a></li>
+<li><a href="https://datacarpentry.github.io/python-ecology-lesson/" class="external-link">Data
+Analysis and Visualization in Python for Ecologists</a></li>
+<li><a href="https://datacarpentry.github.io/python-ecology-lesson-es/" class="external-link">Análysis
+y visualización de datos usando Python</a></li>
+<li><a href="https://datacarpentry.github.io/organization-genomics/" class="external-link">Project
+Organization and Management for Genomics</a></li>
+<li><a href="https://datacarpentry.github.io/r-intro-geospatial/" class="external-link">Introduction
+to R for Geospatial Data</a></li>
+</ul>
+</li>
+<li>Library Carpentry:
+<ul>
+<li><a href="https://librarycarpentry.github.io/lc-data-intro/" class="external-link">Introduction to
+Regular Expressions</a></li>
+<li><a href="https://librarycarpentry.github.io/lc-shell/" class="external-link">The Unix
+Shell</a></li>
+</ul>
+</li>
+<li>Software Carpentry:
+<ul>
+<li><a href="https://swcarpentry.github.io/shell-novice/" class="external-link">The Unix
+Shell</a></li>
+<li><a href="https://swcarpentry.github.io/git-novice/" class="external-link">Version Control
+with Git</a></li>
+<li><a href="https://swcarpentry.github.io/python-novice-inflammation/" class="external-link">Programming
+with Python</a></li>
+<li>
+<a href="https://swcarpentry.github.io/python-novice-gapminder/" class="external-link">Plotting
+and Programming in Python</a> - after the first episode.</li>
+<li><a href="https://swcarpentry.github.io/r-novice-inflammation/" class="external-link">Programming
+with R</a></li>
+<li><a href="https://swcarpentry.github.io/r-novice-gapminder/" class="external-link">R for
+Reproducible Scientific Analysis</a></li>
+</ul>
+</li>
+<li>HPC Carpentry:
+<ul>
+<li><a href="https://carpentries-incubator.github.io/hpc-workflows/" class="external-link">HPC
+Workflow Management with Snakemake</a></li>
+</ul>
+</li>
+</ul>
+<p>The following lessons don’t work as well for this exercise:</p>
+<ul>
+<li>Data Carpentry:
+<ul>
+<li><a href="https://datacarpentry.github.io/astronomy-python/" class="external-link">Foundations of
+Astronomical Data Science</a></li>
+<li><a href="https://datacarpentry.github.io/spreadsheet-ecology-lesson/" class="external-link">Data
+Organization in Spreadsheets for Ecologists</a></li>
+<li>
+<a href="Data%20Organization%20in%20Spreadsheets%20for%20Social%20Scientists">Data
+Organization in Spreadsheets for Social Scientists</a>]</li>
+<li><a href="https://datacarpentry.github.io/OpenRefine-ecology-lesson/" class="external-link">Data
+Cleaning with OpenRefine for Ecologists</a></li>
+<li><a href="https://datacarpentry.github.io/openrefine-socialsci/" class="external-link">Data
+Cleaning with OpenRefine for Social Scientists</a></li>
+<li><a href="https://datacarpentry.github.io/shell-genomics/" class="external-link">Introduction to
+the Command Line for Genomics</a></li>
+<li><a href="https://datacarpentry.github.io/wrangling-genomics" class="external-link">Data
+Wrangling and Processing for Genomics</a></li>
+<li><a href="https://datacarpentry.github.io/cloud-genomics/" class="external-link">Introduction to
+Cloud Computing for Genomics</a></li>
+<li><a href="https://datacarpentry.github.io/organization-geospatial/" class="external-link">Introduction
+to Geospatial Concepts</a></li>
+<li><a href="https://datacarpentry.github.io/r-raster-vector-geospatial/" class="external-link">Introduction
+to Geospatial Raster and Vector Data with R</a></li>
+</ul>
+</li>
+<li>Library Carpentry:
+<ul>
+<li><a href="https://librarycarpentry.github.io/lc-spreadsheets/" class="external-link">Tidy
+data for librarians</a></li>
+<li><a href="https://librarycarpentry.github.io/lc-open-refine/" class="external-link">OpenRefine</a></li>
+<li><a href="https://librarycarpentry.github.io/lc-git/" class="external-link">Introduction to
+Git</a></li>
+</ul>
+</li>
+<li>HPC Carpentry:
+<ul>
+<li><a href="https://carpentries-incubator.github.io/hpc-intro/" class="external-link">Introduction
+to High-Performance Computing</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p>The above exercise has demonstrated that chatbots will often provide
+correct responses to the types of challenges we pose to learners during
+our workshops. We might also wonder how consistent these responses are -
+in other words, if all the learners in your workshop enter the same
+prompt, will they reliably receive the same answer? Does that depend on
+whether everyone is using the same genAI tool?</p>
+<div id="how-consistent-are-genai-answers" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="how-consistent-are-genai-answers" class="callout-inner">
+<h3 class="callout-title">How Consistent are GenAI Answers?</h3>
+<div class="callout-content">
+<p>Copy the following prompt into your genAI chatbot of choice.</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">MARKDOWN<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode markdown" tabindex="0"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" tabindex="-1" aria-label="code-block-1-1"></a>In bash how would you write a loop that echoes all 10 numbers from 0 to 9?</span></code></pre>
+</div>
+<p>Share your results in the Etherpad, along with information about the
+tool and model you used.</p>
+<ul>
+<li>How many different responses were provided?</li>
+<li>How many of the responses were correct?</li>
+<li>Were the correct responses all useful for novices?</li>
+</ul>
+<p>For comparison, the solution provided in the <a href="https://swcarpentry.github.io/shell-novice/" class="external-link">Software Carpentry
+Unix Shell lesson</a> is:</p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a><span class="ex">$</span> for loop_variable in 0 1 2 3 4 5 6 7 8 9</span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1" aria-label="code-block-2-2"></a><span class="op">&gt;</span> do</span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1" aria-label="code-block-2-3"></a><span class="op">&gt;</span>     echo <span class="va">$loop_variable</span></span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1" aria-label="code-block-2-4"></a><span class="op">&gt;</span> done</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>Some responses obtained might be:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1" aria-label="code-block-3-1"></a><span class="ex">$</span> for i in <span class="dt">{</span><span class="dv">0</span><span class="dt">..</span><span class="dv">9</span><span class="dt">}</span><span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1" aria-label="code-block-3-2"></a><span class="op">&gt;</span>    echo <span class="st">"</span><span class="va">$i</span><span class="st">"</span></span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1" aria-label="code-block-3-3"></a><span class="op">&gt;</span> done</span></code></pre>
+</div>
+<p>The two examples below are quite similar to one another, but differ
+in whether quotation marks are placed around the variable.</p>
+<div class="codewrapper sourceCode" id="cb4">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1" aria-label="code-block-4-1"></a><span class="ex">$</span> for <span class="er">(</span><span class="kw">(</span><span class="va">i</span><span class="op">=</span>0<span class="kw">;</span> <span class="ex">i</span><span class="op">&lt;</span>10<span class="kw">;</span> <span class="ex">i++</span><span class="kw">));</span> <span class="cf">do</span></span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1" aria-label="code-block-4-2"></a><span class="op">&gt;</span>    echo <span class="st">"</span><span class="va">$i</span><span class="st">"</span></span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1" aria-label="code-block-4-3"></a><span class="op">&gt;</span> done</span></code></pre>
+</div>
+<div class="codewrapper sourceCode" id="cb5">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1" aria-label="code-block-5-1"></a><span class="ex">$</span> for <span class="er">(</span><span class="kw">(</span><span class="va">i</span><span class="op">=</span>0<span class="kw">;</span> <span class="ex">i</span><span class="op">&lt;</span>10<span class="kw">;</span> <span class="ex">i++</span><span class="kw">));</span> <span class="cf">do</span></span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1" aria-label="code-block-5-2"></a><span class="op">&gt;</span>  echo <span class="va">$i</span></span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1" aria-label="code-block-5-3"></a><span class="op">&gt;</span> done</span></code></pre>
+</div>
+<p>The example below will only work if the learner has initiated the
+bash program (or zsh or similar) in their terminal.</p>
+<div class="codewrapper sourceCode" id="cb6">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1" aria-label="code-block-6-1"></a><span class="ex">$</span> i=0</span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1" aria-label="code-block-6-2"></a><span class="op">&gt;</span> while <span class="bu">[</span> <span class="va">$i</span> <span class="ot">-lt</span> 10 <span class="bu">]</span><span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb6-3"><a href="#cb6-3" tabindex="-1" aria-label="code-block-6-3"></a><span class="op">&gt;</span>  echo <span class="va">$i</span></span>
+<span id="cb6-4"><a href="#cb6-4" tabindex="-1" aria-label="code-block-6-4"></a><span class="op">&gt;</span>  <span class="kw">((</span><span class="va">i</span><span class="op">++</span><span class="kw">))</span></span>
+<span id="cb6-5"><a href="#cb6-5" tabindex="-1" aria-label="code-block-6-5"></a><span class="op">&gt;</span> done</span></code></pre>
+</div>
+<div class="codewrapper sourceCode" id="cb7">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" tabindex="-1" aria-label="code-block-7-1"></a><span class="ex">$</span> for i in <span class="va">$(</span><span class="fu">seq</span> 0 9<span class="va">)</span><span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1" aria-label="code-block-7-2"></a><span class="op">&gt;</span>  echo <span class="va">$i</span></span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1" aria-label="code-block-7-3"></a><span class="op">&gt;</span> done</span></code></pre>
+</div>
+<p>The example below assumes the learner is writing a shell script,
+rather than working interactively within the terminal.</p>
+<div class="codewrapper sourceCode" id="cb8">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" tabindex="-1" aria-label="code-block-8-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb8-2"><a href="#cb8-2" tabindex="-1" aria-label="code-block-8-2"></a></span>
+<span id="cb8-3"><a href="#cb8-3" tabindex="-1" aria-label="code-block-8-3"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="dt">{</span><span class="dv">0</span><span class="dt">..</span><span class="dv">9</span><span class="dt">}</span><span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb8-4"><a href="#cb8-4" tabindex="-1" aria-label="code-block-8-4"></a>	<span class="bu">echo</span> <span class="st">"</span><span class="va">$i</span><span class="st">"</span></span>
+<span id="cb8-5"><a href="#cb8-5" tabindex="-1" aria-label="code-block-8-5"></a><span class="cf">done</span></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>We’ve demonstrated that chatbots are able to generate correct
+solutions for many Carpentries-style exercises, but that the responses
+generated are not consistent. Not only are they not consistent, but each
+example above introduces new pieces of syntax that haven’t been covered
+in the lesson yet. We will discuss more the challenges this can cause
+with cognitive load later in this training.</p>
 <div id="what-does-this-change" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -979,7 +1227,7 @@ this.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Indications of an AI-generated solution include:</p>
 <ul>
@@ -1116,7 +1364,7 @@ extraneous cognitive load) for a novice learner?</li>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
 <div class="accordion-body">
 <p>An example, using an exercise <a href="https://swcarpentry.github.io/r-novice-inflammation/04-cond.html" class="external-link">in
 the Software Carpentry Programming with R lesson</a>:</p>
@@ -1296,7 +1544,7 @@ chatbot disrupt that feedback mechanism?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Feedback mechanisms for learners include:</p>
 <ul>
@@ -1720,8 +1968,8 @@ aim to teach remain as important as ever.</li>
   "url": "https://carpentries.github.io/instructor-training-genai/aio.html",
   "identifier": "https://carpentries.github.io/instructor-training-genai/aio.html",
   "dateCreated": "2026-06-04",
-  "dateModified": "2026-06-16",
-  "datePublished": "2026-06-16"
+  "dateModified": "2026-06-18",
+  "datePublished": "2026-06-18"
 }
 
   </script><script>
