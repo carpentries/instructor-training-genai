@@ -44,6 +44,7 @@ Try passing the text of some of the exercises from your chosen lesson to [duck.a
 
 When reporting your results, include details of any custom settings you used on the chatbot. 
 How might those have affected the output you received?
+Similarly, did you need to provide any additional information to the chatbot? E.g. upload example data, paste extra content from elsewhere in the episode, etc.
 
 ::::::::::::::::::::::::::: spoiler
 
@@ -51,8 +52,8 @@ How might those have affected the output you received?
 
 General notes: 
 
-- At the time of writing, some chatbots do not support uploading of csv files (e.g. duck.ai). For lessons with csv datasets, options include describing the dataset, pasting in the first several lines of data, or using a chatbot that supports csv uploads (e.g. Claude.ai).  
-- Some lessons don't work well for this exercise because they require more specialized set-up than there is time available for this exercise. However, most of the exercises in these lessons can still be completed by genAI tools once the setup is accomplished. If you have extra time, feel free to test them!
+- At the time of writing, some chatbots do not support uploading of csv files (e.g. duck.ai). For lessons with csv datasets, you could try describing the dataset, pasting in the first several lines of data, or using a chatbot that supports csv uploads (e.g. Claude.ai).
+- Some lessons don't work well for this exercise because they require more specialized set-up than there is time available for this exercise. However, many exercises in these lessons can still be completed by genAI tools once the setup is accomplished. If you have extra time, feel free to test them, and think about whether an additional steps you needed to take could realistically be expected of learners in a workshop.
 
 The following lessons work well for this exercise: 
 
@@ -75,8 +76,8 @@ The following lessons work well for this exercise:
 	- [Programming with R](https://swcarpentry.github.io/r-novice-inflammation/)
 	- [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/)
 
-- HPC Carpentry: 
-	- TBA
+- HPC Carpentry:
+    - [HPC Workflow Management with Snakemake](https://carpentries-incubator.github.io/hpc-workflows/)
  
 
 The following lessons don't work as well for this exercise: 
@@ -99,7 +100,7 @@ The following lessons don't work as well for this exercise:
 	- [Introduction to Git](https://librarycarpentry.github.io/lc-git/)
 
 - HPC Carpentry: 
-	- TBA
+	- [Introduction to High-Performance Computing](https://carpentries-incubator.github.io/hpc-intro/)
 
 :::::::::::::::::::::::::::::::::::::
 
