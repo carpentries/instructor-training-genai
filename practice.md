@@ -32,7 +32,171 @@ GenAI chatbots may be unhelpful to novices who want to learn a new topic because
 However, novices are unable to assess the quality of a generated solution.
 Are there other ways that they could be encouraged to use genAI tools, to better support their learning?
 
-TODO: exercise here, testing chatbots ability to solve existing exercises in Carpentries lessons.
+::::::::::::::::::::::::::::::::::::: challenge
+
+### How Good is GenAI at Solving Carpentries Exercises?
+
+Choose one of the suggested lessons in the spoiler below. 
+Try passing the text of some of the exercises from your chosen lesson to [duck.ai](https://duck.ai/) or another genAI chatbot of your choice. 
+
+- How many exercises from the lesson was the chatbot able to solve?
+- Did you find any exercises that the chatbot could not solve?
+
+When reporting your results, include details of any custom settings you used on the chatbot. 
+How might those have affected the output you received?
+Similarly, did you need to provide any additional information to the chatbot? E.g. upload example data, paste extra content from elsewhere in the episode, etc.
+
+::::::::::::::::::::::::::: spoiler
+
+### Suggested Lessons
+
+General notes: 
+
+- At the time of writing, some chatbots do not support uploading of csv files (e.g. duck.ai). For lessons with csv datasets, you could try describing the dataset, pasting in the first several lines of data, or using a chatbot that supports csv uploads (e.g. Claude.ai).
+- Some lessons don't work well for this exercise because they require more specialized set-up than there is time available for this exercise. However, many exercises in these lessons can still be completed by genAI tools once the setup is accomplished. If you have extra time, feel free to test them, and think about whether an additional steps you needed to take could realistically be expected of learners in a workshop.
+
+The following lessons work well for this exercise: 
+
+- Data Carpentry:
+	- [Data Analysis and Visualization in R for Ecologists](https://datacarpentry.github.io/R-ecology-lesson/)
+	- [Data Analysis and Visualization in Python for Ecologists](https://datacarpentry.github.io/python-ecology-lesson/)
+	- [Análysis y visualización de datos usando Python](https://datacarpentry.github.io/python-ecology-lesson-es/)
+	- [Project Organization and Management for Genomics](https://datacarpentry.github.io/organization-genomics/)
+	- [Introduction to R for Geospatial Data](https://datacarpentry.github.io/r-intro-geospatial/)
+
+- Library Carpentry: 
+	- [Introduction to Regular Expressions](https://librarycarpentry.github.io/lc-data-intro/)
+	- [The Unix Shell](https://librarycarpentry.github.io/lc-shell/)
+
+- Software Carpentry: 
+	- [The Unix Shell](https://swcarpentry.github.io/shell-novice/)
+	- [Version Control with Git](https://swcarpentry.github.io/git-novice/)
+	- [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
+	- [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/) - after the first episode.
+	- [Programming with R](https://swcarpentry.github.io/r-novice-inflammation/)
+	- [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/)
+
+- HPC Carpentry:
+    - [HPC Workflow Management with Snakemake](https://carpentries-incubator.github.io/hpc-workflows/)
+ 
+
+The following lessons don't work as well for this exercise: 
+
+- Data Carpentry:
+	- [Foundations of Astronomical Data Science](https://datacarpentry.github.io/astronomy-python/)
+	- [Data Organization in Spreadsheets for Ecologists](https://datacarpentry.github.io/spreadsheet-ecology-lesson/)
+	- [Data Organization in Spreadsheets for Social Scientists](Data Organization in Spreadsheets for Social Scientists)]
+	- [Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.github.io/OpenRefine-ecology-lesson/)
+	- [Data Cleaning with OpenRefine for Social Scientists](https://datacarpentry.github.io/openrefine-socialsci/)
+	- [Introduction to the Command Line for Genomics](https://datacarpentry.github.io/shell-genomics/)
+	- [Data Wrangling and Processing for Genomics](https://datacarpentry.github.io/wrangling-genomics)
+	- [Introduction to Cloud Computing for Genomics](https://datacarpentry.github.io/cloud-genomics/)
+	- [Introduction to Geospatial Concepts](https://datacarpentry.github.io/organization-geospatial/)
+	- [Introduction to Geospatial Raster and Vector Data with R](https://datacarpentry.github.io/r-raster-vector-geospatial/)
+
+- Library Carpentry: 
+	- [Tidy data for librarians](https://librarycarpentry.github.io/lc-spreadsheets/)
+	- [OpenRefine](https://librarycarpentry.github.io/lc-open-refine/)
+	- [Introduction to Git](https://librarycarpentry.github.io/lc-git/)
+
+- HPC Carpentry: 
+	- [Introduction to High-Performance Computing](https://carpentries-incubator.github.io/hpc-intro/)
+
+:::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+The above exercise has demonstrated that chatbots will often provide correct responses to the types of challenges we pose to learners during our workshops.
+We might also wonder how consistent these responses are - in other words, if all the learners in your workshop enter the same prompt, will they reliably receive the same answer?
+Does that depend on whether everyone is using the same genAI tool? 
+
+::::::::::::::::::::::::::::::::::::: challenge
+
+### How Consistent are GenAI Answers?
+
+
+Copy the following prompt into your genAI chatbot of choice. 
+
+```markdown
+In bash how would you write a loop that echoes all 10 numbers from 0 to 9?
+```
+
+Share your results in the Etherpad, along with information about the tool and model you used.
+
+- How many different responses were provided?
+- How many of the responses were correct?
+- Were the correct responses all useful for novices?
+
+For comparison, the solution provided in the [Software Carpentry Unix Shell lesson](https://swcarpentry.github.io/shell-novice/) is: 
+
+```bash
+$ for loop_variable in 0 1 2 3 4 5 6 7 8 9
+> do
+>     echo $loop_variable
+> done
+```
+
+::::::::::::::::::::::::::: solution
+
+Some responses obtained might be: 
+
+```bash
+$ for i in {0..9}; do
+>    echo "$i"
+> done
+```
+
+The two examples below are quite similar to one another, but differ in whether quotation marks are placed around the variable.
+
+```bash
+$ for ((i=0; i<10; i++)); do
+>    echo "$i"
+> done
+```
+
+```bash
+$ for ((i=0; i<10; i++)); do
+>  echo $i
+> done
+```
+
+The example below will only work if the learner has initiated the bash program (or zsh or similar) in their terminal.
+
+```bash
+$ i=0
+> while [ $i -lt 10 ]; do
+>  echo $i
+>  ((i++))
+> done
+```
+
+```bash
+$ for i in $(seq 0 9); do
+>  echo $i
+> done
+```
+
+The example below assumes the learner is writing a shell script, rather than working interactively within the terminal. 
+
+```bash
+#!/bin/bash
+
+for i in {0..9}; do
+	echo "$i"
+done
+```
+
+:::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+We've demonstrated that chatbots are able to generate correct solutions for many Carpentries-style exercises, but that the responses generated are not consistent.
+Not only are they not consistent, but each example above introduces new pieces of syntax that haven't been covered in the lesson yet. 
+We will discuss more the challenges this can cause with cognitive load later in this training. 
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
