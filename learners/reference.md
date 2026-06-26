@@ -4,6 +4,15 @@ title: Reference
 
 ## Citations
 
+<span id="Hall2019">Hall 2019</span>
+:   Erika Hall:
+    *Just Enough Research* (2nd ed.).
+	A Book Apart,
+	2019,
+	978-1952616464.
+	<br>
+	*A short, readable guide to lightweight UX research methods*
+
 <span id="Meyer2017">Meyer et al 2017</span>
 :   André N. Meyer, Laura E. Barton, Gail C. Murphy, Thomas Zimmermann, and Thomas Fritz:
     "The Work Life of Developers: Activities, Switches and Perceived Productivity."
