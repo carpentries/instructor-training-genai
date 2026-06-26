@@ -17,13 +17,13 @@ exercises: 45
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-Sweller’s model describes three categories of cognitive load: intrinsic, germane, and extraneous.
+[Sweller's model describes three categories of cognitive load: intrinsic, germane, and extraneous](https://carpentries.github.io/instructor-training/05-memory.html#the-theory-of-cognitive-load).
 Our goal as Instructors (and Lesson Developers) is to eliminate extraneous cognitive load. 
 But intrinsic and germane cognitive load remain. 
 That is, some cognitive load is unavoidable and essential for learning.
 This is desirable cognitive load, but the friction can feel difficult for learners.
 
-GenAI tools offer a tempting alternative, giving learners the opportunity for “cognitive offloading”. 
+GenAI tools offer a tempting alternative, giving learners the opportunity for "cognitive offloading". 
 But if this eliminates or reduces germane cognitive load, the learner is less likely to retain the relevant information required for learning.
 
 Similarly, and referring back to the previous episode, if they offload parts of the process that promote learning, they will benefit very little from participating in the workshop.
@@ -32,7 +32,7 @@ practicing new skills and applying new concepts facilitates the transfer of this
 Completion of exercises also promotes metacognition: a learner's awareness that they are learning, which itself promotes further learning.
 If learners feed the exercises straight into a chatbot, they are much less likely to learn what is being taught.
 
-Carpentries lessons and the exercises within them have been carefully designed to help Instructors manage learners’ cognitive load throughout a workshop.
+Carpentries lessons and the exercises within them have been carefully designed to help Instructors [manage learners' cognitive load](https://carpentries.github.io/instructor-training/05-memory.html#attention-management-in-your-workshop) throughout a workshop.
 In many cases, there will be more than one possible way to solve an exercise.
 But learners cannot be expected to have all of the conceptual knowledge required to devise some of these possible solutions.
 
@@ -44,7 +44,7 @@ For example, a Python exercise might be solved in one line with a list comprehen
 Refer back to an earlier exercise, where you tried to solve an exercise from one of our lessons with a chatbot. 
 Consider the code that the chatbot produced.
 
-* What strengths and weaknesses do you observe in the chatbot’s solutions?
+* What strengths and weaknesses do you observe in the chatbot's solutions?
 * What reasoning are you using to evaluate or classify them?
 * Would a novice learner be able to use the same reasoning to evaluate the response?
 * Does the solution produced by the chatbot include additional complexity, concepts, etc. that could be distracting (introducing extraneous cognitive load) for a novice learner?
