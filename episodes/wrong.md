@@ -20,8 +20,6 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-<!-- add links please --->
-
 In 2023, GitHub announced their tools made developers 55% faster [(Peng et al 2023)](../learners/reference.md#Peng2023).
 That number appeared in every executive presentation for a year.
 This episode teaches you how to tell if you should believe it or not.

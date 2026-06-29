@@ -19,13 +19,13 @@ exercises: 25
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-Guided practice is a central principle in Carpentries Instructor Training.
+[Guided practice is a central principle in Carpentries Instructor Training](https://carpentries.github.io/instructor-training/02-practice-learning.html#the-carpentries-pedagogical-model).
 We provide learners with guided practice during a workshop and equip them with sufficient expertise to continue guiding their own practice after they leave.
 Novices need this initial guided instruction because they do not have sufficient expertise to know what they do not know or to articulate what they want to do.
 
 GenAI chatbots may be unhelpful to novices who want to learn a new topic because:
 
-* They may produce responses that do not account for the learner’s lack of expertise.
+* They may produce responses that [do not account for the learner's lack of expertise](https://carpentries.github.io/instructor-training/04-expertise.html#switching-language).
 * They often over-cater to the prompt they were given: providing additional information, taking additional steps, and suggesting next steps that may be jumping too far ahead.
 * They can reliably generate correct snippets of code, including solutions to most if not all of the exercises in our lessons.
 

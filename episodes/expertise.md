@@ -22,7 +22,7 @@ Many (research) software engineers have concluded that genAI tools are now suffi
 These experts report that they have found ways of working with genAI tools that leverage their expertise.
 
 Despite widely publicised claims that anybody can now code using genAI, novices are unlikely to achieve equivalently good results.
-Novices lack a mental model for conceptualising and articulating what they want to achieve, how it could be achieved, how it could go wrong, etc.
+[Novices lack a mental model for conceptualising and articulating what they want to achieve](https://carpentries.github.io/instructor-training/02-practice-learning.html#the-acquisition-of-skill), how it could be achieved, how it could go wrong, etc.
 
 ![_The simplified model of skill acquisition presented in Instructor Training._](https://carpentries.github.io/instructor-training/fig/skill-level.svg){
 alt='Three people, labelled from left to right as \"Novice\", \"Competent Practitioner\", and \"Expert\". Underneath,an arrow labelled \"Experience level\" points from left to right. The \"Novice\" is quoted, \"I am not sure what questions to ask.\" The Competent Practitioner is quoted, \"I am pretty confident, but I still look stuff up a lot!\" The Expert is quoted \"I have been doing this on a daily basis for years!\"'
