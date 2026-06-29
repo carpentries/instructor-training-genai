@@ -91,7 +91,7 @@ Many Carpentries community members have strong and justified concerns about nega
 Others are excited by the prospect of new tools they expect will lower the barrier to generating source code.
 
 We have developed this Bonus Module in response to reports from Instructors of widespread use of genAI tools like chatbots during workshops.
-The technology has become established, learners’ behaviours have shifted, and we want to empower the Instructor community to engage with these shifting conditions.
+The technology has become established, learners' behaviours have shifted, and we want to empower the Instructor community to engage with these shifting conditions.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

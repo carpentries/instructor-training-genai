@@ -4,11 +4,21 @@ title: Reference
 
 ## Citations
 
+<span id="Hall2019">Hall 2019</span>
+:   Erika Hall:
+    *Just Enough Research* (2nd ed.).
+	A Book Apart,
+	2019,
+	978-1952616464.
+	<br>
+	*A short, readable guide to lightweight UX research methods*
+
 <span id="Meyer2017">Meyer et al 2017</span>
 :   André N. Meyer, Laura E. Barton, Gail C. Murphy, Thomas Zimmermann, and Thomas Fritz:
     "The Work Life of Developers: Activities, Switches and Perceived Productivity."
     *IEEE Trans. Software Engineering*,
-    43(12), 2017,
+    43(12),
+	2017,
     [10.1109/tse.2017.2656886](https://doi.org/10.1109/tse.2017.2656886).
     <br>
     *Monitoring 20 developers over 11 work-days shows more user input
@@ -31,7 +41,7 @@ title: Reference
 <span id="OBrien2026">O'Brien et al 2026</span>
 :   Gabrielle O'Brien, Alexis Parker, Nasir Eisty, and Jeffrey Carver:
     "A survey of generative AI adoption and perceived productivity among scientists who program."
-    (preprint),
+    2026,
     [arxiv.org/abs/2512.19644](https://doi.org/10.48550/arXiv.2512.19644).
     <br>
     *Survey of 868 scientists who program as part of their work, 
@@ -47,6 +57,14 @@ title: Reference
     *Randomized controlled experiment claiming that GitHub Copilot
     users completed a JavaScript coding task 55.8% faster than the
     control group.*
+
+<span id="Richard2026">Richards et al 2026</span>
+:   Jonan Richards, Bruno Alves de Oliveira, Iury Oliveira, Igor Wiese, and Mairieli Wessel:
+    "No Two Developers Think Alike: How Problem-Solving Styles and Experience Shape Needs in Conversational Interaction with Copilot".
+    2026,
+    <https://arxiv.org/abs/2606.19216>.
+    <br>
+    *Characterizes 5 distinct interaction modes and 10 underlying needs in developers' interactions with AI tools.*
 
 <span id="Sadowski2019">Sadowski and Zimmerman 2019</span>
 :   Caitlin Sadowski and Thomas Zimmermann (eds.):
