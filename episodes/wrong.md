@@ -20,8 +20,6 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-<!-- add links please --->
-
 In 2023, GitHub announced their tools made developers 55% faster [(Peng et al 2023)](../learners/reference.md#Peng2023).
 That number appeared in every executive presentation for a year.
 This episode teaches you how to tell if you should believe it or not.
@@ -68,7 +66,7 @@ UX researchers sometimes distinguish two kinds of evaluation:
 - **Summative evaluation** is the assessment of whether something works in general. It requires more participants, controlled conditions, and quantitative metrics.
 
 You may have identified parallels to the distinction between formative and summative evaluation for assessing learning.
-User experience groups in industry use the term "guerilla research" for formative evaluation, and have developed rough-and-ready techniques for getting *something* useful with the time and resources they have.
+User experience groups in industry use the term "guerilla research" for formative evaluation, and have developed rough-and-ready techniques for getting *something* useful with the time and resources they have [Hall (2019)](../learners/reference.md#Hall2019).
 For example, [Nielsen and Landauer (1993)](../learners/reference.md#Nielsen1993) found that a think-aloud session with five participants is typically enough to identify most problems in a specific workflow for a specific user group.
 
 ## In the Classroom

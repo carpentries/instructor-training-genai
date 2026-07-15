@@ -57,7 +57,6 @@ title: Reference
 	A Book Apart,
 	2019,
 	978-1952616464.
-	<br>
 	*A short, readable guide to lightweight UX research methods*
 
 <span id="Jiao2026">Jiao2026</span>
@@ -109,7 +108,6 @@ title: Reference
     43(12),
 	2017,
     <https://doi.org/10.1109/tse.2017.2656886>.
-    <br>
     *Monitoring 20 developers over 11 work-days shows more user input
     correlates with higher perceived productivity; emails and planned
     meetings correlate negatively; productivity is highly personal and
@@ -122,7 +120,6 @@ title: Reference
     206-213,
     1993,
     <https://doi.org/10.1145/169059.169166>.
-    <br>
     *Develops a mathematical model showing that approximately five participants
     are sufficient to identify most major usability problems in a focused task set
     using formative testing with a reasonably homogeneous user group.*
@@ -132,7 +129,6 @@ title: Reference
     "A survey of generative AI adoption and perceived productivity among scientists who program."
     2026,
     <https://doi.org/10.48550/arXiv.2512.19644>.
-    <br>
     *Survey of 868 scientists who program as part of their work, 
     reporting that 80% use GenAI tools in their programming, 
     with 77.5% of those using general purposing tools like ChatGPT over specialised coding tools.*
@@ -142,7 +138,6 @@ title: Reference
     "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot."
     2023,
     <https://doi.org/10.48550/arXiv.2302.06590>.
-    <br>
     *Randomized controlled experiment claiming that GitHub Copilot
     users completed a JavaScript coding task 55.8% faster than the
     control group.*
@@ -152,7 +147,6 @@ title: Reference
     "No Two Developers Think Alike: How Problem-Solving Styles and Experience Shape Needs in Conversational Interaction with Copilot".
     2026,
     <https://arxiv.org/abs/2606.19216>.
-    <br>
     *Characterizes 5 distinct interaction modes and 10 underlying needs in developers' interactions with AI tools.*
 
 <span id="Sadowski2019">Sadowski and Zimmerman 2019</span>
@@ -161,7 +155,6 @@ title: Reference
     Apress,
     2019,
     [9781484242216](https://isbnsearch.org/isbn/9781484242216).
-    <br>
     *Edited volume collecting research and practitioner perspectives on
     how to understand, define, and measure software developer
     productivity.*

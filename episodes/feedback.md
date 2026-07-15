@@ -21,10 +21,10 @@ exercises: 20
 
 ### Feedback Mechanisms
 What is one way that a learner receives feedback on their work or understanding during a workshop? 
-How might the learner’s use of a chatbot disrupt that feedback mechanism?
+How might the learner's use of a chatbot disrupt that feedback mechanism?
 
-What is one way that an Instructor receives feedback on learners’ understanding during a workshop?
-How might the learner’s use of a chatbot disrupt that feedback mechanism?
+What is one way that an Instructor receives feedback on learners' understanding during a workshop?
+How might the learner's use of a chatbot disrupt that feedback mechanism?
 
 ::::::::::::::::::::: solution
 
@@ -45,7 +45,7 @@ Feedback mechanisms for Instructors include:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-One challenge that learners’ use of genAI tools presents to a workshop is that it removes a crucial pathway of feedback to the Instructor.
+One challenge that learners' use of genAI tools presents to a workshop is that it removes [a crucial pathway of feedback][it-feedback] to the Instructor.
 If a learner turns to a chatbot for help before they turn to a helper or Instructor, the Instructor will never know what question they had, what they were finding difficult, or where they were stuck.
 This means the Instructor cannot identify trends in what the class is finding difficult and misses the opportunity to clarify the key points.
 
