@@ -216,14 +216,25 @@ Referring back to your answers, what is one approach you could take as an Instru
 
 ### How Much Expertise Do You Need?
 Prompt your chatbot with a coding task.
-You can choose an exercise from a lesson (Carpentries or otherwise), or come up with your own task. 
-Consider the output produced: How much knowledge of programming concepts do you think you would need to have to be able to understand or validate what the output is doing?
+You can choose an exercise from a lesson (Carpentries or otherwise), or come up with your own task.
+Answer any follow-up questions as needed until you receive output to complete the task.
 
-On this chart (FIXME: add link to tldraw chart), mark your result based on your judgement of how complex your coding task was and how much expertise would be needed to understand the response.
+Now consider the output produced:
+
+* Does the code and any associated text produced correctly complete the task?
+* How much knowledge of programming concepts do you think you would need to have to be able to understand or validate what the code produced is doing?
+
+Mark your result on [the shared chart](https://www.tldraw.com/f/GsssVFtSBOJWSPaYpRCd3?d=v-27.-108.1401.973.page) based on your judgement of how complex your coding task was and how much expertise would be needed to understand the response.
+Use the differently shaped and coloured markers to indicate whether the response was correct/helpful or not.
+
+::::::::::::::::::::::::::::::: solution
+
+Unsurprisingly, code solving complex tasks is likely to require a lot of expertise to understand and validate.
+But code generated to complete even relatively simple tasks is often long and/or invokes concepts, syntax, and data structures that require considerable existing expertise to interpret.
+
+::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
