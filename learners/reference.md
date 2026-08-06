@@ -7,23 +7,23 @@ title: Reference
 <span id="Barba2026">Barba2026</span>
 :   Lorena A. Barba and Laura Stegner:
     "The Conversational Exam: A Scalable Assessment Design for the AI Era".
-	<https://arxiv.org/abs/2601.10691>,
+    <https://arxiv.org/abs/2601.10691>,
     2026.
     *Conversational exam (live coding + explanation in small groups) restores assessment validity against generative AI cheating; 58 students examined in 2 days; combines authentic practice with inherent validity.*
 
 <span id="Bielaczyc1995">Bielaczyc1995</span>
 :   Katerine Bielaczyc, Peter L. Pirolli, and Ann L. Brown:
     "Training in Self-Explanation and Self-Regulation Strategies: Investigating the Effects of Knowledge Acquisition Activities on Problem Solving."
-	*Cognition and Instruction*.
-	13(6),
-	1995.
+    *Cognition and Instruction*.
+    13(6),
+    1995.
     <https://doi.org/10.1207/s1532690xci1302_3>.
     *Training study (24 novice programmers) showing self-explanation and self-regulation strategy training causally improves programming task performance; instructional group showed significantly greater strategy use and performance gains.*
 
 <span id="Bridgeford2025">Bridgeford2025</span>
 :   Eric W. Bridgeford, Iain Campbell, Zijao Chen, et al.:
-	*Ten Simple Rules for AI-Assisted Coding in Science*.
-	<https://arxiv.org/abs/2510.22254>,
+    *Ten Simple Rules for AI-Assisted Coding in Science*.
+    <https://arxiv.org/abs/2510.22254>,
     2025.
     *10 practical rules for AI-assisted coding in scientific computing; addresses problem preparation, context management, testing/validation, and code quality; emphasizes human agency and domain expertise for reproducible research.*
 
@@ -37,15 +37,15 @@ title: Reference
 <span id="Deslauriers2019">Deslauriers2019</span>
 :   Louis Deslauriers, Logan S. McCarty, Kelly Miller, Kristina Callaghan, and Greg Kestin:
     "Measuring Actual Learning Versus Feeling of Learning in Response to Being Actively Engaged in the Classroom."
-	*Proc. National Academy of Sciences*,
-	116,
-	Sept. 2019.
-	<https://doi.org/10.1073/pnas.1821936116>.
+    *Proc. National Academy of Sciences*,
+    116,
+    Sept. 2019.
+    <https://doi.org/10.1073/pnas.1821936116>.
     *RCT shows active learning produces more learning but lower perceived learning; increased cognitive effort is misread as poorer learning; early instructor intervention corrects this misperception.*
 
 <span id="Finnieansley2022">Finnieansley2022</span>
 :   James Finnie-Ansley, Paul Denny, Brett A. Becker, Andrew Luxton-Reilly, and James Prather:
-	"The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming."
+    "The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming."
     *Proc. 24th Australasian Computing Education Conference*,
     <https://doi.org/10.1145/3511861.3511863>,
     2022.
@@ -54,24 +54,24 @@ title: Reference
 <span id="Hall2019">Hall 2019</span>
 :   Erika Hall:
     *Just Enough Research* (2nd ed.).
-	A Book Apart,
-	2019,
-	978-1952616464.
-	*A short, readable guide to lightweight UX research methods*
+    A Book Apart,
+    2019,
+    978-1952616464.
+    *A short, readable guide to lightweight UX research methods*
 
 <span id="Jiao2026">Jiao2026</span>
 :   Yuling Jiao and Qiuli Wang:
     "Large language models for formative feedback in writing instruction: a systematic review of classroom interventions, feedback quality, and student outcomes".
-	*Frontiers in Education*,
-	11,
-	2026,
-	<https://doi.org/10.3389/feduc.2026.1834085>.
-	*Studies in which teachers discussed AI-generated feedback, helped students interpret it, or combined it with their own comments generally reported better learning outcomes than studies where students worked independently with AI.*
+    *Frontiers in Education*,
+    11,
+    2026,
+    <https://doi.org/10.3389/feduc.2026.1834085>.
+    *Studies in which teachers discussed AI-generated feedback, helped students interpret it, or combined it with their own comments generally reported better learning outcomes than studies where students worked independently with AI.*
 
 <span id="Leinonen2023a">Leinonen2023a</span>
 :   Juho Leinonen, Paul Denny, Stephen MacNeil, et al.:
     "Comparing Code Explanations Created by Students and Large Language Models."
-	*Proc. 2023 Conference on Innovation and Technology in Computer Science Education*,
+    *Proc. 2023 Conference on Innovation and Technology in Computer Science Education*,
     <https://doi.org/10.1145/3587102.3588785>,
     2023.
     *LLM-generated code explanations are rated significantly more accurate and understandable than student-generated ones in a 1000-student course; scalable on-demand explanations can scaffold introductory programming learning.*
@@ -79,7 +79,7 @@ title: Reference
 <span id="Leinonen2023b">Leinonen2023b</span>
 :   Juho Leinonen, Arto Hellas, Sami Sarsa, et al.:
     "Using Large Language Models to Enhance Programming Error Messages."
-	*Proc. 54th ACM Technical Symposium on Computer Science Education*,
+    *Proc. 54th ACM Technical Symposium on Computer Science Education*,
     <https://doi.org/10.1145/3545945.3569770>,
     2023. 
     *LLMs enhance Python error messages with plain-language explanations and fix suggestions; sometimes surpass original messages in interpretability and actionability for novice programmers.*
@@ -94,10 +94,10 @@ title: Reference
 
 <span id="Ma2025">Ma2025</span>
 :   Qianou Ma, Weirui Peng, Chenyang Yang, Hua Shen, Ken Koedinger, and Tongshuang Wu:
-	"What Should We Engineer in Prompts? Training Humans in Requirement-Driven LLM Use."
-	*ACM Transactions on Computer-Human Interaction*,
-	32(4),
-	<https://doi.org/10.1145/3731756>,
+    "What Should We Engineer in Prompts? Training Humans in Requirement-Driven LLM Use."
+    *ACM Transactions on Computer-Human Interaction*,
+    32(4),
+    <https://doi.org/10.1145/3731756>,
     2025.
     *Randomized experiment with 30 novices finds Requirement-Oriented Prompt Engineering (ROPE) training achieves 20% gains vs. 1% for conventional prompt engineering training.*
 
@@ -106,7 +106,7 @@ title: Reference
     "The Work Life of Developers: Activities, Switches and Perceived Productivity."
     *IEEE Trans. Software Engineering*,
     43(12),
-	2017,
+    2017,
     <https://doi.org/10.1109/tse.2017.2656886>.
     *Monitoring 20 developers over 11 work-days shows more user input
     correlates with higher perceived productivity; emails and planned
@@ -162,7 +162,7 @@ title: Reference
 <span id="Stray2026">Stray2026</span>
 :   Viktoria Stray, Elias Goldmann Brandtzæg, Viggo Wivestad, Astri Barbala, and Nils Brede Moe:
     "Developer Productivity with and Without GitHub Copilot: A Longitudinal Mixed-Methods Case Study."
-	*Proceedings of the 59th Hawaii International Conference on System Sciences*,
-	<https://doi.org/10.24251/hicss.2026.880>.
+    *Proceedings of the 59th Hawaii International Conference on System Sciences*,
+    <https://doi.org/10.24251/hicss.2026.880>.
     2026. 
     *Mixed-methods study of 703 NAV IT repositories finds Copilot users were more active even before adoption and shows no statistically significant changes in commit-based metrics after adopting the tool.*
