@@ -13,6 +13,6 @@
 "episodes/wrong.md" "3658d4a2ace4f5da79eebe39017a8e63" "site/built/wrong.md" "2026-06-29"
 "episodes/wrap-up.md" "3ee658557ce6359c2a21808dd589dedb" "site/built/wrap-up.md" "2026-06-10"
 "instructors/instructor-notes.md" "5cf113fd22defb29d17b64597f3c9bc0" "site/built/instructor-notes.md" "2026-06-10"
-"learners/reference.md" "1a5dbb2cde080f4de35ad5b0029cce0c" "site/built/reference.md" "2026-07-15"
+"learners/reference.md" "a7427606d5f68eec69afbd21ef3c233a" "site/built/reference.md" "2026-08-11"
 "learners/setup.md" "cd2a3c8dd8a90c88d23c4aea25b71845" "site/built/setup.md" "2026-06-10"
 "profiles/learner-profiles.md" "2e5b9e232c663ee3c630a8d46b0a71fd" "site/built/learner-profiles.md" "2026-06-29"
