@@ -38,14 +38,6 @@ This means that a novice cannot articulate what they want to do, because they ma
 
 To keep improving the results they receive, and take responsibility for AI-generated outputs, learners must build their own expertise.
 
-[Richards et al 2026](../learners/reference.md#Richards2026) identified five interaction modes among programmers using genAI tools:
-
--   **Navigator** uses genAI to find their way around the code base.
--   **Autopilot** asks genAI to solve their problems completely automatically.
--   **Deputy** uses genAI incrementally to advance collaboratively toward a solution.
--   **Technician** is similar to Deputy, but uses smaller, more granular changes that are carefully reviewed.
--   **Scholar** uses genAI to explain concepts or provide information support.
-
 :::::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
 ### Copying/pasting Exercises
@@ -73,6 +65,14 @@ Strategies suggested by Trainers include:
 _(Note to Trainers: if you receive more suggestions from participants while delivering this bonus module, please [open a pull request][source-repo] to add them to the curriculum.)_
 
 ::::::::::::::::::::::::::::::
+
+[Richards et al 2026](../learners/reference.md#Richards2026) identified five interaction modes among programmers using genAI tools:
+
+-   **Navigator** uses genAI to find their way around the code base.
+-   **Autopilot** asks genAI to solve their problems completely automatically.
+-   **Deputy** uses genAI incrementally to advance collaboratively toward a solution.
+-   **Technician** is similar to Deputy, but uses smaller, more granular changes that are carefully reviewed.
+-   **Scholar** uses genAI to explain concepts or provide information support.
 
 ### Identifying modes
 Skim the Results section of [Richards et al 2026](../learners/reference.md#Richards2026) and identify the pros and cons of each of the five interaction modes for Novices, Competent Practitioners, and Experts *in their own domains* who are all Novice users of genAI.
