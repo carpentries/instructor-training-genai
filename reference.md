@@ -166,3 +166,12 @@ title: Reference
     <https://doi.org/10.24251/hicss.2026.880>.
     2026. 
     *Mixed-methods study of 703 NAV IT repositories finds Copilot users were more active even before adoption and shows no statistically significant changes in commit-based metrics after adopting the tool.*
+
+<span id="Stromberg2026">Stromberg2026</span>
+:   David Stromberg, Victor Lei, Yanhui Wu:
+    "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education."
+    *SSRN*,
+    <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618>.
+    2026. 
+    *Study of >26,000 secondary school students in China finds that AI use provides immediate reduction in homework completion times and improvements in homework scores, followed by growing deterioration in exam scores.*
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618

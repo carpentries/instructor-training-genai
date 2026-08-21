@@ -1,7 +1,7 @@
 ---
 title: 'Building Skill with Practice'
 teaching: 10
-exercises: 25
+exercises: 15
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -109,94 +109,7 @@ The following lessons don't work as well for this exercise:
 
 
 The above exercise has demonstrated that chatbots will often provide correct responses to the types of challenges we pose to learners during our workshops.
-We might also wonder how consistent these responses are - in other words, if all the learners in your workshop enter the same prompt, will they reliably receive the same answer?
-Does that depend on whether everyone is using the same genAI tool? 
-
-::::::::::::::::::::::::::::::::::::: challenge
-
-### How Consistent are GenAI Answers?
-
-
-Copy the following prompt into your genAI chatbot of choice. 
-
-```markdown
-In bash how would you write a loop that echoes all 10 numbers from 0 to 9?
-```
-
-Share your results in the Etherpad, along with information about the tool and model you used.
-
-- How many different responses were provided?
-- How many of the responses were correct?
-- Were the correct responses all useful for novices?
-
-For comparison, the solution provided in the [Software Carpentry Unix Shell lesson](https://swcarpentry.github.io/shell-novice/) is: 
-
-```bash
-$ for loop_variable in 0 1 2 3 4 5 6 7 8 9
-> do
->     echo $loop_variable
-> done
-```
-
-::::::::::::::::::::::::::: solution
-
-Some responses obtained might be: 
-
-```bash
-$ for i in {0..9}; do
->    echo "$i"
-> done
-```
-
-The two examples below are quite similar to one another, but differ in whether quotation marks are placed around the variable.
-
-```bash
-$ for ((i=0; i<10; i++)); do
->    echo "$i"
-> done
-```
-
-```bash
-$ for ((i=0; i<10; i++)); do
->  echo $i
-> done
-```
-
-The example below will only work if the learner has initiated the bash program (or zsh or similar) in their terminal.
-
-```bash
-$ i=0
-> while [ $i -lt 10 ]; do
->  echo $i
->  ((i++))
-> done
-```
-
-```bash
-$ for i in $(seq 0 9); do
->  echo $i
-> done
-```
-
-The example below assumes the learner is writing a shell script, rather than working interactively within the terminal. 
-
-```bash
-#!/bin/bash
-
-for i in {0..9}; do
-	echo "$i"
-done
-```
-
-:::::::::::::::::::::::::::::::::::::
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-We've demonstrated that chatbots are able to generate correct solutions for many Carpentries-style exercises, but that the responses generated are not consistent.
-Not only are they not consistent, but each example above introduces new pieces of syntax that haven't been covered in the lesson yet. 
-We will discuss more the challenges this can cause with cognitive load later in this training. 
-
+Previous experience has also shown us that the tools are quite consistent in the solutions they produce to these relatively small and introductory exercises, but some variation in responses can be assumed.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
@@ -212,29 +125,9 @@ Referring back to your answers, what is one approach you could take as an Instru
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::::::::::: challenge
-
-### How Much Expertise Do You Need?
-Prompt your chatbot with a coding task.
-You can choose an exercise from a lesson (Carpentries or otherwise), or come up with your own task.
-Answer any follow-up questions as needed until you receive output to complete the task.
-
-Now consider the output produced:
-
-* Does the code and any associated text produced correctly complete the task?
-* How much knowledge of programming concepts do you think you would need to have to be able to understand or validate what the code produced is doing?
-
-Mark your result on [the shared chart](https://www.tldraw.com/f/GsssVFtSBOJWSPaYpRCd3?d=v-27.-108.1401.973.page) based on your judgement of how complex your coding task was and how much expertise would be needed to understand the response.
-Use the differently shaped and coloured markers to indicate whether the response was correct/helpful or not.
-
-::::::::::::::::::::::::::::::: solution
-
-Unsurprisingly, code solving complex tasks is likely to require a lot of expertise to understand and validate.
-But code generated to complete even relatively simple tasks is often long and/or invokes concepts, syntax, and data structures that require considerable existing expertise to interpret.
-
-::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+We've demonstrated that chatbots are able to generate technically correct solutions for many Carpentries-style exercises.
+However, many of the code solutions generated introduce new pieces of syntax that haven't been covered in the lesson yet, and may be accompanied by explanatory text that invokes concepts and terminology that learners have not yet encountered.
+We will discuss this challenge in the next episodes.
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
