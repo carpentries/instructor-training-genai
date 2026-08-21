@@ -108,7 +108,7 @@
     <a id="search-button" class="btn btn-primary" href="aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
   </div><!--/div.container-fluid -->
 </nav><aside class="col-md-12 lesson-progress"><div class="progress carpentries">
-    <div class="progress-bar carpentries" role="progressbar" style="width: 16%" aria-valuenow="16" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">16%</div>
+    <div class="progress-bar carpentries" role="progressbar" style="width: 17%" aria-valuenow="17" aria-valuemin="0" aria-valuemax="100" aria-label="Lesson Progress">17%</div>
   </div>
 </aside><div class="container">
       <div class="row">
@@ -320,7 +320,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Building Skill with Practice</h1>
-        <p>Last updated on 2026-08-04 |
+        <p>Last updated on 2026-08-21 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/practice.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -406,9 +406,12 @@ elsewhere in the episode, etc.</p>
 <div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
-  <h3 class="accordion-header" id="headingSpoiler1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Suggested Lessons </h3>
+  <h3 class="accordion-header" id="headingSpoiler1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
+  Suggested Lessons
+  </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <p>General notes:</p>
 <ul><li>At the time of writing, some chatbots do not support uploading of
@@ -500,112 +503,10 @@ to High-Performance Computing</a></li>
 </div>
 <p>The above exercise has demonstrated that chatbots will often provide
 correct responses to the types of challenges we pose to learners during
-our workshops. We might also wonder how consistent these responses are -
-in other words, if all the learners in your workshop enter the same
-prompt, will they reliably receive the same answer? Does that depend on
-whether everyone is using the same genAI tool?</p>
-<div id="how-consistent-are-genai-answers" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="how-consistent-are-genai-answers" class="callout-inner">
-<h3 class="callout-title">How Consistent are GenAI Answers?</h3>
-<div class="callout-content">
-<p>Copy the following prompt into your genAI chatbot of choice.</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">MARKDOWN<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode markdown" tabindex="0"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" tabindex="-1" aria-label="code-block-1-1"></a>In bash how would you write a loop that echoes all 10 numbers from 0 to 9?</span></code></pre>
-</div>
-<p>Share your results in the Etherpad, along with information about the
-tool and model you used.</p>
-<ul><li>How many different responses were provided?</li>
-<li>How many of the responses were correct?</li>
-<li>Were the correct responses all useful for novices?</li>
-</ul><p>For comparison, the solution provided in the <a href="https://swcarpentry.github.io/shell-novice/" class="external-link">Software Carpentry
-Unix Shell lesson</a> is:</p>
-<div class="codewrapper sourceCode" id="cb2">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a><span class="ex">$</span> for loop_variable in 0 1 2 3 4 5 6 7 8 9</span>
-<span id="cb2-2"><a href="#cb2-2" tabindex="-1" aria-label="code-block-2-2"></a><span class="op">&gt;</span> do</span>
-<span id="cb2-3"><a href="#cb2-3" tabindex="-1" aria-label="code-block-2-3"></a><span class="op">&gt;</span>     echo <span class="va">$loop_variable</span></span>
-<span id="cb2-4"><a href="#cb2-4" tabindex="-1" aria-label="code-block-2-4"></a><span class="op">&gt;</span> done</span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
-<div class="accordion-body">
-<p>Some responses obtained might be:</p>
-<div class="codewrapper sourceCode" id="cb3">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1" aria-label="code-block-3-1"></a><span class="ex">$</span> for i in <span class="dt">{</span><span class="dv">0</span><span class="dt">..</span><span class="dv">9</span><span class="dt">}</span><span class="kw">;</span> <span class="cf">do</span></span>
-<span id="cb3-2"><a href="#cb3-2" tabindex="-1" aria-label="code-block-3-2"></a><span class="op">&gt;</span>    echo <span class="st">"</span><span class="va">$i</span><span class="st">"</span></span>
-<span id="cb3-3"><a href="#cb3-3" tabindex="-1" aria-label="code-block-3-3"></a><span class="op">&gt;</span> done</span></code></pre>
-</div>
-<p>The two examples below are quite similar to one another, but differ
-in whether quotation marks are placed around the variable.</p>
-<div class="codewrapper sourceCode" id="cb4">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1" aria-label="code-block-4-1"></a><span class="ex">$</span> for <span class="er">(</span><span class="kw">(</span><span class="va">i</span><span class="op">=</span>0<span class="kw">;</span> <span class="ex">i</span><span class="op">&lt;</span>10<span class="kw">;</span> <span class="ex">i++</span><span class="kw">));</span> <span class="cf">do</span></span>
-<span id="cb4-2"><a href="#cb4-2" tabindex="-1" aria-label="code-block-4-2"></a><span class="op">&gt;</span>    echo <span class="st">"</span><span class="va">$i</span><span class="st">"</span></span>
-<span id="cb4-3"><a href="#cb4-3" tabindex="-1" aria-label="code-block-4-3"></a><span class="op">&gt;</span> done</span></code></pre>
-</div>
-<div class="codewrapper sourceCode" id="cb5">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1" aria-label="code-block-5-1"></a><span class="ex">$</span> for <span class="er">(</span><span class="kw">(</span><span class="va">i</span><span class="op">=</span>0<span class="kw">;</span> <span class="ex">i</span><span class="op">&lt;</span>10<span class="kw">;</span> <span class="ex">i++</span><span class="kw">));</span> <span class="cf">do</span></span>
-<span id="cb5-2"><a href="#cb5-2" tabindex="-1" aria-label="code-block-5-2"></a><span class="op">&gt;</span>  echo <span class="va">$i</span></span>
-<span id="cb5-3"><a href="#cb5-3" tabindex="-1" aria-label="code-block-5-3"></a><span class="op">&gt;</span> done</span></code></pre>
-</div>
-<p>The example below will only work if the learner has initiated the
-bash program (or zsh or similar) in their terminal.</p>
-<div class="codewrapper sourceCode" id="cb6">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1" aria-label="code-block-6-1"></a><span class="ex">$</span> i=0</span>
-<span id="cb6-2"><a href="#cb6-2" tabindex="-1" aria-label="code-block-6-2"></a><span class="op">&gt;</span> while <span class="bu">[</span> <span class="va">$i</span> <span class="ot">-lt</span> 10 <span class="bu">]</span><span class="kw">;</span> <span class="cf">do</span></span>
-<span id="cb6-3"><a href="#cb6-3" tabindex="-1" aria-label="code-block-6-3"></a><span class="op">&gt;</span>  echo <span class="va">$i</span></span>
-<span id="cb6-4"><a href="#cb6-4" tabindex="-1" aria-label="code-block-6-4"></a><span class="op">&gt;</span>  <span class="kw">((</span><span class="va">i</span><span class="op">++</span><span class="kw">))</span></span>
-<span id="cb6-5"><a href="#cb6-5" tabindex="-1" aria-label="code-block-6-5"></a><span class="op">&gt;</span> done</span></code></pre>
-</div>
-<div class="codewrapper sourceCode" id="cb7">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" tabindex="-1" aria-label="code-block-7-1"></a><span class="ex">$</span> for i in <span class="va">$(</span><span class="fu">seq</span> 0 9<span class="va">)</span><span class="kw">;</span> <span class="cf">do</span></span>
-<span id="cb7-2"><a href="#cb7-2" tabindex="-1" aria-label="code-block-7-2"></a><span class="op">&gt;</span>  echo <span class="va">$i</span></span>
-<span id="cb7-3"><a href="#cb7-3" tabindex="-1" aria-label="code-block-7-3"></a><span class="op">&gt;</span> done</span></code></pre>
-</div>
-<p>The example below assumes the learner is writing a shell script,
-rather than working interactively within the terminal.</p>
-<div class="codewrapper sourceCode" id="cb8">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" tabindex="-1" aria-label="code-block-8-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb8-2"><a href="#cb8-2" tabindex="-1" aria-label="code-block-8-2"></a></span>
-<span id="cb8-3"><a href="#cb8-3" tabindex="-1" aria-label="code-block-8-3"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="dt">{</span><span class="dv">0</span><span class="dt">..</span><span class="dv">9</span><span class="dt">}</span><span class="kw">;</span> <span class="cf">do</span></span>
-<span id="cb8-4"><a href="#cb8-4" tabindex="-1" aria-label="code-block-8-4"></a>	<span class="bu">echo</span> <span class="st">"</span><span class="va">$i</span><span class="st">"</span></span>
-<span id="cb8-5"><a href="#cb8-5" tabindex="-1" aria-label="code-block-8-5"></a><span class="cf">done</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<p>We’ve demonstrated that chatbots are able to generate correct
-solutions for many Carpentries-style exercises, but that the responses
-generated are not consistent. Not only are they not consistent, but each
-example above introduces new pieces of syntax that haven’t been covered
-in the lesson yet. We will discuss more the challenges this can cause
-with cognitive load later in this training.</p>
+our workshops. Previous experience has also shown us that the tools are
+quite consistent in the solutions they produce to these relatively small
+and introductory exercises, but some variation in responses can be
+assumed.</p>
 <div id="what-does-this-change" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -627,48 +528,12 @@ one or more of the skills listed above?</p>
 </div>
 </div>
 </div>
-<div id="how-much-expertise-do-you-need" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="how-much-expertise-do-you-need" class="callout-inner">
-<h3 class="callout-title">How Much Expertise Do You Need?</h3>
-<div class="callout-content">
-<p>Prompt your chatbot with a coding task. You can choose an exercise
-from a lesson (Carpentries or otherwise), or come up with your own task.
-Answer any follow-up questions as needed until you receive output to
-complete the task.</p>
-<p>Now consider the output produced:</p>
-<ul><li>Does the code and any associated text produced correctly complete
-the task?</li>
-<li>How much knowledge of programming concepts do you think you would
-need to have to be able to understand or validate what the code produced
-is doing?</li>
-</ul><p>Mark your result on <a href="https://www.tldraw.com/f/GsssVFtSBOJWSPaYpRCd3?d=v-27.-108.1401.973.page" class="external-link">the
-shared chart</a> based on your judgement of how complex your coding task
-was and how much expertise would be needed to understand the response.
-Use the differently shaped and coloured markers to indicate whether the
-response was correct/helpful or not.</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
-<div class="accordion-body">
-<p>Unsurprisingly, code solving complex tasks is likely to require a lot
-of expertise to understand and validate. But code generated to complete
-even relatively simple tasks is often long and/or invokes concepts,
-syntax, and data structures that require considerable existing expertise
-to interpret.</p>
-</div>
-</div>
-</div>
-</div>
+<p>We’ve demonstrated that chatbots are able to generate technically
+correct solutions for many Carpentries-style exercises. However, many of
+the code solutions generated introduce new pieces of syntax that haven’t
+been covered in the lesson yet, and may be accompanied by explanatory
+text that invokes concepts and terminology that learners have not yet
+encountered. We will discuss this challenge in the next episodes.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -750,8 +615,8 @@ any links that you are not going to use.
   "url": "https://carpentries.github.io/instructor-training-genai/practice.html",
   "identifier": "https://carpentries.github.io/instructor-training-genai/practice.html",
   "dateCreated": "2026-06-04",
-  "dateModified": "2026-08-04",
-  "datePublished": "2026-08-18"
+  "dateModified": "2026-08-21",
+  "datePublished": "2026-08-21"
 }
 
   </script><script>
