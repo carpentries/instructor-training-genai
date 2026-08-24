@@ -49,7 +49,7 @@ One interpretation of the results summarised above is that genAI use is damaging
 Could there be other possible interpretations?
 If so, how plausible do you find these alternatives?
 
-::::::::::::::::::::: solution
+:::::::::::::::::::::: spoiler
 
 A person with an optimistic view of genAI's potential might suggest that the improvements granted by AI use to students' homework scores show that the exams are outdated, assessing skills that are no longer needed.
 
@@ -63,7 +63,7 @@ A person with an optimistic view of genAI's potential might suggest that the imp
 Learners at Carpentries workshops are typically adults, as opposed to the secondary school students studied by Stromberg, Lei, and Wu.
 How relevant do you think their findings are to our workshops?
 
-::::::::::::::::::::: solution
+:::::::::::::::::::::: spoiler
 
 Some differences between workshops and secondary school education that might affect relevance:
 
