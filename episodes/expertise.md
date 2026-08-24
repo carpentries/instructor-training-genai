@@ -38,7 +38,7 @@ This means that a novice cannot articulate what they want to do, because they ma
 
 To keep improving the results they receive, and take responsibility for AI-generated outputs, learners must build their own expertise.
 
-In a recent study of secondary school pupils in China, [Stromberg, Lei, and Wu]()../learners/reference.md#Stromberg2026) found that AI use offers immediate benefits to students in terms of homework completion time and the quality of work produced, followed by growing negative impact on exam scores (where no AI was allowed).
+In a recent study of secondary school pupils in China, [Stromberg, Lei, and Wu](../learners/reference.md#Stromberg2026) found that AI use offers immediate benefits to students in terms of homework completion time and the quality of work produced, followed by growing negative impact on exam scores (where no AI was allowed).
 No penalty to exam scores was observed among students who did not adopt AI in their work.
 Those students who adopted AI but did not take less time over their homework achieved similar exam scores to those students who did not adopt AI, but almost none of those who adopted AI saw an improvement in exam scores.
 
