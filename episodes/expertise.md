@@ -38,24 +38,9 @@ This means that a novice cannot articulate what they want to do, because they ma
 
 To keep improving the results they receive, and take responsibility for AI-generated outputs, learners must build their own expertise.
 
-In a recent study of secondary school pupils in China, [Stromberg, Lei, and Wu](../learners/reference.md#Stromberg2026) found that AI use offers immediate benefits to students in terms of homework completion time and the quality of work produced, followed by growing negative impact on exam scores (where no AI was allowed).
+In a study of secondary school pupils in China, published in 2026, [Stromberg, Lei, and Wu](../learners/reference.md#Stromberg2026) found that AI use offers immediate benefits to students in terms of homework completion time and the quality of work produced, followed by growing negative impact on exam scores (where no AI was allowed).
 No penalty to exam scores was observed among students who did not adopt AI in their work.
 Those students who adopted AI but did not take less time over their homework achieved similar exam scores to those students who did not adopt AI, but almost none of those who adopted AI saw an improvement in exam scores.
-
-::::::::::::::::::::::::::::::::::::::::::::::::: discussion
-
-### Is This Good?
-One interpretation of the results summarised above is that genAI use is damaging to students' education.
-Could there be other possible interpretations?
-If so, how plausible do you find these alternatives?
-
-:::::::::::::::::::::: spoiler
-
-A person with an optimistic view of genAI's potential might suggest that the improvements granted by AI use to students' homework scores show that the exams are outdated, assessing skills that are no longer needed.
-
-::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
@@ -104,28 +89,26 @@ _(Note to Trainers: if you receive more suggestions from participants while deli
 
 ::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::: callout
+
+### User Roles and Education
 [Richards et al 2026](../learners/reference.md#Richards2026) identified five interaction modes among programmers using genAI tools:
 
--   **Navigator** uses genAI to find their way around the code base.
--   **Autopilot** asks genAI to solve their problems completely automatically.
--   **Deputy** uses genAI incrementally to advance collaboratively toward a solution.
--   **Technician** is similar to Deputy, but uses smaller, more granular changes that are carefully reviewed.
--   **Scholar** uses genAI to explain concepts or provide information support.
+* **Navigator** uses genAI to find their way around the code base.
+* **Autopilot** asks genAI to solve their problems completely automatically.
+* **Deputy** uses genAI incrementally to advance collaboratively toward a solution.
+* **Technician** is similar to Deputy, but uses smaller, more granular changes that are carefully reviewed.
+* **Scholar** uses genAI to explain concepts or provide information support.
 
-### Identifying modes
-Skim the Results section of [Richards et al 2026](../learners/reference.md#Richards2026) and identify the pros and cons of each of the five interaction modes for Novices, Competent Practitioners, and Experts *in their own domains* who are all Novice users of genAI.
+There is an emerging consensus that Autopilot mode has the most drawbacks, both in the short term (generated solutions may be plausibly wrong) and long term (users will learn the least).
+Scholar and Navigator modes may have the best benefit-to-drawback ratio, as they increase the user's knowledge rather than supplanting it.
+Once some expertise has been developed, Technician mode is often a step toward Deputy, and that progression should be encouraged.
 
-::::::::::::::::::::: solution
+Keep in mind that all of this is provisional and subject to change.
 
-1.  There is an emerging consensus that Autopilot mode has the most drawbacks, both in the short term (generated solutions may be plausibly wrong) and long term (users will learn the least).
-2.  Scholar and Navigator modes may have the best benefit-to-drawback ratio, as they increase the user's knowledge rather than supplanting it.
-3.  Technician mode is often a step toward Deputy, and that progression should be encouraged.
-
-Keep in mind that all of this is provisional and subject to change. 
-
-::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 

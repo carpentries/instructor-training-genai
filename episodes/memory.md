@@ -103,6 +103,12 @@ If the response is still too complex, can you adjust the prompt further to make 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+A common observation is that the addition of this information about the learner's level of expertise produces responses with less complex code and a lot of additional explanation.
+While the code in these responses tends to be easier for learners to understand, the responses themselves are longer, often include multiple different options/implementations, and may be overwhelming for a novice.
+Carpentries workshops are deliberately paced slowly and structured to manage cognitive load for novice learners.
+
+Instructors may choose to advise learners to provide information about their level of expertise, the contents of the workshop(s) they have participated in, and other relevant context when prompting an AI tool for help with their coding tasks after they leave the workshop.
+
 :::::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
 ### Copy-Paste vs Peeking at the Solution
