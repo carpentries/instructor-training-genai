@@ -1,11 +1,8 @@
-# This template CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to replace its contents
-# with information about your lesson.
-# Remember to update this file periodically, 
-# ensuring that the author list and other fields remain accurate.
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: FIXME
+title: GenAI in Workshops
 message: >-
   Please cite this lesson using the information in this file
   when you refer to it in publications, and/or if you
@@ -13,10 +10,514 @@ message: >-
   training material.
 type: dataset
 authors:
-  - given-names: FIXME
-    family-names: FIXME
-abstract: >-
-  FIXME Replace this with a short abstract describing the
-  lesson, e.g. its target audience and main intended
-  learning objectives.
+  - given-names: Toby
+    family-names: Hodges
+    email: tobyhodges@carpentries.org
+    affiliation: The Carpentries
+    orcid: 'https://orcid.org/0000-0003-1766-456X'
+  - given-names: Greg
+    family-names: Wilson
+    orcid: 'https://orcid.org/0000-0001-8659-8979'
+  - given-names: Erin
+    family-names: Becker
+    orcid: 'https://orcid.org/0000-0002-6832-0233'
+  - given-names: Amanda
+    family-names: Kis
+    orcid: 'https://orcid.org/0000-0002-1539-3527'
+repository-code: 'https://github.com/carpentries/instructor-training-genai/'
+url: 'https://carpentries.github.io/instructor-training-genai/'
+abstract: >
+  An extension to The Carpentries Instructor Training,
+  designed to empower Instructors to respond to learners’
+  use of generative AI (genAI) chatbot tools in workshops.
+
+  This bonus module is designed for Carpentries Instructors
+  and anyone else who has participated in Instructor
+  Training or Learner Centered Teaching. It is not necessary
+  for participants to have completed certification as a
+  Carpentries Instructor.
+
+  After following the training, Instructors will be able to:
+
+
+  * Identify challenges and opportunities presented by genAI
+  chatbots to novices learning to adopt computational
+  research practices.
+
+  * Engage learners in discussions of genAI chatbot use in
+  the context of a Carpentries workshop.
+
+  * Build a positive learning environment that encourages
+  openness and critical analysis of prompts given to a
+  chatbot and outputs received.
+
+  * Discuss the implications of expert awareness gaps in the
+  context of chatbot use.
+
+  * Advise learners on how to increase the likelihood of a
+  genAI chatbot producing output that will help them learn.
+
+  * Summarise existing studies of the effects of genAI tool
+  usage on software development productivity.
+
+  * Discuss how the skills that learners need to develop,
+  and their motivation to acquire those skills, are affected
+  by the coding capabilities of genAI tools.
+keywords:
+  - education
+  - generative AI
+  - carpentries
 license: CC-BY-4.0
+version: v0.1
+date-released: '2026-08-06'
+references:
+  - title: "The Carpentries Instructor Training"
+    type: edited-work
+    editors:
+      - given-names: Sarah M
+        family-names: Brown
+      - given-names: Tim
+        family-names: Dennis
+      - given-names: David
+        family-names: Pérez-Suárez
+      - given-names: Nathaniel
+        family-names: Porter
+      - given-names: Jon
+        family-names: Wheeler
+      - given-names: Karen
+        family-names: Word
+    doi: 10.5281/zenodo.5709383
+    authors: 
+      - given-names: Sarah M
+        family-names: Brown
+      - given-names: Karen
+        family-names: Word
+      - given-names: Maneesha
+        family-names: Sane
+      - given-names: Kelly
+        family-names: Barnes
+      - given-names: Nathaniel
+        family-names: Porter
+      - given-names: Philipp Matthias
+        family-names: Schaefer
+      - given-names: Aleksandra
+        family-names: Nenadic
+      - given-names: Toby
+        family-names: Hodges
+      - given-names: Giordano
+        family-names: Lipari
+      - given-names: Andrzej Aleksander
+        family-names: Romaniuk
+      - given-names: Martino
+        family-names: Sorbaro Sindaci
+      - given-names: Brynn
+        family-names: Elliott
+      - given-names: Christian
+        family-names: Knüpfer
+      - given-names: Jonathan
+        family-names: Wheeler
+      - given-names: Mark Tefero
+        family-names: Kivumbi
+      - given-names: Adrian
+        family-names: Pohl
+      - given-names: Andy
+        family-names: Foster
+      - given-names: Annika
+        family-names: Rockenberger
+      - given-names: Christopher
+        family-names: Beltz
+      - given-names: Cora
+        family-names: Assmann
+      - given-names: Désirée
+        family-names: Treichler
+      - given-names: Erin Alison
+        family-names: Becker
+      - given-names: Hao
+        family-names: Ye
+      - given-names: James
+        family-names: Deaton
+      - given-names: Jannetta
+        family-names: Steyn
+      - given-names: Jeffrey
+        family-names: Oliver
+      - given-names: Jeremy
+        family-names: Guillette
+      - given-names: Joenio
+        family-names: Marques da Costa
+      - given-names: Jon
+        family-names: Wheeler
+      - given-names: Kelly
+        family-names: Duffy
+      - given-names: Marcelina
+        family-names: Nagales
+      - given-names: Ragnhild
+        family-names: Sundsbak
+    date-released: "2023-02-06"
+    license: "CC-BY-4.0"
+  - title: "The Conversational Exam: A Scalable Assessment Design for the AI Era"
+    type: article
+    authors:
+      - family-names: Barba
+        given-names: Lorena A.
+        orcid: https://orcid.org/0000-0001-5812-2711
+      - family-names: Stegner
+        given-names: Laura
+        orcid: https://orcid.org/0000-0003-4496-0727
+    journal: arXiv preprint
+    year: 2026
+    url: https://arxiv.org/abs/2601.10691
+  - type: article
+    authors:
+      - family-names: Bielaczyc
+        given-names: Katerine
+      - family-names: Pirolli
+        given-names: Peter L.
+      - family-names: Brown
+        given-names: Ann L.
+    title: "Training in Self-Explanation and Self-Regulation Strategies: Investigating the Effects of Knowledge Acquisition Activities on Problem Solving"
+    journal: Cognition and Instruction
+    volume: 13
+    issue: 2
+    start: 221
+    end: 252
+    year: 1995
+    doi: 10.1207/s1532690xci1302_3
+  - title: "Ten Simple Rules for AI-Assisted Coding in Science"
+    type: article
+    authors:
+      - family-names: Bridgeford
+        given-names: Eric W.
+        orcid: https://orcid.org/0000-0001-6115-719X
+      - family-names: Campbell
+        given-names: Iain
+      - family-names: Chen
+        given-names: Zijao
+      - family-names: Lin
+        given-names: Zhicheng
+      - family-names: Ritz
+        given-names: Harrison
+      - family-names: Vandekerckhove
+        given-names: Joachim
+      - family-names: Poldrack
+        given-names: Russell A.
+    journal: arXiv preprint
+    year: 2025
+    url: https://arxiv.org/abs/2510.22254
+    doi: 10.48550/arxiv.2510.22254
+  - title: "Dear Diary: A Randomized Controlled Trial of Generative AI Coding Tools in the Workplace"
+    type: article
+    authors:
+      - family-names: Butler
+        given-names: Jenna
+      - family-names: Suh
+        given-names: Jina
+      - family-names: Haniyur
+        given-names: Sankeerti
+      - family-names: Hadley
+        given-names: Constance
+    journal: arXiv preprint
+    year: 2024
+    doi: 10.48550/arxiv.2410.18334
+  - title: "Measuring Actual Learning Versus Feeling of Learning in Response to Being Actively Engaged in the Classroom"
+    type: article
+    authors:
+      - family-names: Deslauriers
+        given-names: Louis
+        orcid: https://orcid.org/0000-0002-4800-5770
+      - family-names: McCarty
+        given-names: Logan S.
+        orcid: https://orcid.org/0000-0002-7981-9267
+      - family-names: Miller
+        given-names: Kelly
+      - family-names: Callaghan
+        given-names: Kristina
+      - family-names: Kestin
+        given-names: Greg
+    journal: Proceedings of the National Academy of Sciences
+    volume: 116
+    issue: 39
+    start: 19251
+    end: 19257
+    year: 2019
+    month: 9
+    doi: 10.1073/pnas.1821936116
+  - title: "The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming"
+    type: conference-paper
+    authors:
+      - family-names: Finnie-Ansley
+        given-names: James
+      - family-names: Denny
+        given-names: Paul
+        orcid: https://orcid.org/0000-0002-5150-9806
+      - family-names: Becker
+        given-names: Brett A.
+        orcid: https://orcid.org/0000-0003-1446-647X
+      - family-names: Luxton-Reilly
+        given-names: Andrew
+      - family-names: Prather
+        given-names: James
+        orcid: https://orcid.org/0000-0003-2807-6042
+    collection-title: Proceedings of the 24th Australasian Computing Education Conference
+    publisher:
+      name: ACM
+    start: 10
+    end: 19
+    year: 2022
+    doi: 10.1145/3511861.3511863
+  - title: "Just Enough Research"
+    type: book
+    authors:
+      - family-names: Hall
+        given-names: Erika
+    edition: 2nd
+    publisher:
+      name: A Book Apart
+    year: 2019
+    isbn: "978-1952616464"
+  - title: "Large language models for formative feedback in writing instruction: a systematic review of classroom interventions, feedback quality, and student outcomes"
+    type: article
+    authors:
+      - family-names: Jiao
+        given-names: Yuling
+      - family-names: Wang
+        given-names: Qiuli
+    journal: Frontiers in Education
+    volume: 11
+    year: 2026
+    doi: 10.3389/feduc.2026.1834085
+  - title: "Comparing Code Explanations Created by Students and Large Language Models"
+    type: conference-paper
+    authors:
+      - family-names: Leinonen
+        given-names: Juho
+        orcid: https://orcid.org/0000-0001-6829-9449
+      - family-names: Denny
+        given-names: Paul
+        orcid: https://orcid.org/0000-0002-5150-9806
+      - family-names: MacNeil
+        given-names: Stephen
+        orcid: https://orcid.org/0000-0003-2781-6619
+      - family-names: Sarsa
+        given-names: Sami
+        orcid: https://orcid.org/0000-0002-7277-9282
+      - family-names: Bernstein
+        given-names: Seth
+        orcid: https://orcid.org/0000-0001-5767-1057
+      - family-names: Kim
+        given-names: Joanne
+        orcid: https://orcid.org/0000-0001-7646-2373
+      - family-names: Tran
+        given-names: Andrew
+        orcid: https://orcid.org/0000-0002-0094-1113
+      - family-names: Hellas
+        given-names: Arto
+        orcid: https://orcid.org/0000-0001-6502-209X
+    collection-title: Proceedings of the 2023 Conference on Innovation and Technology in Computer Science Education V. 1
+    publisher:
+      name: ACM
+    start: 124
+    end: 130
+    year: 2023
+    doi: 10.1145/3587102.3588785
+  - title: "Using Large Language Models to Enhance Programming Error Messages"
+    type: conference-paper
+    authors:
+      - family-names: Leinonen
+        given-names: Juho
+        orcid: https://orcid.org/0000-0001-6829-9449
+      - family-names: Hellas
+        given-names: Arto
+        orcid: https://orcid.org/0000-0001-6502-209X
+      - family-names: Sarsa
+        given-names: Sami
+        orcid: https://orcid.org/0000-0002-7277-9282
+      - family-names: Reeves
+        given-names: Brent
+        orcid: https://orcid.org/0000-0001-5781-1136
+      - family-names: Denny
+        given-names: Paul
+        orcid: https://orcid.org/0000-0002-5150-9806
+      - family-names: Prather
+        given-names: James
+        orcid: https://orcid.org/0000-0003-2807-6042
+      - family-names: Becker
+        given-names: Brett A.
+        orcid: https://orcid.org/0000-0003-1446-647X
+    collection-title: Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 1
+    publisher:
+      name: ACM
+    start: 563
+    end: 569
+    year: 2023
+    doi: 10.1145/3545945.3569770
+  - title: "How to Teach Programming in the AI Era? Using LLMs as a Teachable Agent for Debugging"
+    type: conference-paper
+    authors:
+      - family-names: Ma
+        given-names: Qianou
+        orcid: https://orcid.org/0009-0002-8634-130X
+      - family-names: Shen
+        given-names: Hua
+        orcid: https://orcid.org/0000-0002-4928-525X
+      - family-names: Koedinger
+        given-names: Kenneth
+        orcid: https://orcid.org/0000-0002-5850-4768
+      - family-names: Wu
+        given-names: Sherry Tongshuang
+        orcid: https://orcid.org/0000-0003-1630-0588
+    collection-title: Artificial Intelligence in Education (AIED 2024), Lecture Notes in Computer Science
+    publisher:
+      name: Springer Nature Switzerland
+      city: Cham
+    start: 265
+    end: 279
+    year: 2024
+    doi: 10.1007/978-3-031-64302-6_19
+  - title: "What Should We Engineer in Prompts? Training Humans in Requirement-Driven LLM Use"
+    type: article
+    authors:
+      - family-names: Ma
+        given-names: Qianou
+        orcid: https://orcid.org/0009-0002-8634-130X
+      - family-names: Peng
+        given-names: Weirui
+        orcid: https://orcid.org/0009-0001-3417-2447
+      - family-names: Yang
+        given-names: Chenyang
+        orcid: https://orcid.org/0000-0001-5016-7296
+      - family-names: Shen
+        given-names: Hua
+        orcid: https://orcid.org/0000-0002-4928-525X
+      - family-names: Koedinger
+        given-names: Ken
+        orcid: https://orcid.org/0000-0002-5850-4768
+      - family-names: Wu
+        given-names: Tongshuang
+        orcid: https://orcid.org/0000-0003-1630-0588
+    journal: ACM Transactions on Computer-Human Interaction
+    volume: 32
+    issue: 4
+    year: 2025
+    doi: 10.1145/3731756
+  - title: "The Work Life of Developers: Activities, Switches and Perceived Productivity"
+    type: article
+    authors:
+      - family-names: Meyer
+        given-names: André N.
+        orcid: https://orcid.org/0000-0002-5532-1181
+      - family-names: Barton
+        given-names: Laura E.
+      - family-names: Murphy
+        given-names: Gail C.
+      - family-names: Zimmermann
+        given-names: Thomas
+        orcid: https://orcid.org/0000-0003-4905-1469
+      - family-names: Fritz
+        given-names: Thomas
+    journal: IEEE Transactions on Software Engineering
+    volume: 43
+    issue: 12
+    start: 1178
+    end: 1193
+    year: 2017
+    doi: 10.1109/tse.2017.2656886
+  - title: "A Mathematical Model of the Finding of Usability Problems"
+    type: conference-paper
+    authors:
+      - family-names: Nielsen
+        given-names: Jakob
+      - family-names: Landauer
+        given-names: Thomas K.
+    collection-title: Proceedings of INTERACT '93 and CHI '93
+    start: 206
+    end: 213
+    year: 1993
+    doi: 10.1145/169059.169166
+  - title: "A survey of generative AI adoption and perceived productivity among scientists who program"
+    type: article
+    authors:
+      - family-names: "O'Brien"
+        given-names: Gabrielle
+      - family-names: Parker
+        given-names: Alexis
+      - family-names: Eisty
+        given-names: Nasir
+      - family-names: Carver
+        given-names: Jeffrey
+    journal: arXiv preprint
+    year: 2026
+    doi: 10.48550/arXiv.2512.19644
+  - title: "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot"
+    type: article
+    authors:
+      - family-names: Peng
+        given-names: Sida
+      - family-names: Kalliamvakou
+        given-names: Eirini
+      - family-names: Cihon
+        given-names: Peter
+      - family-names: Demirer
+        given-names: Mert
+    journal: arXiv preprint
+    year: 2023
+    doi: 10.48550/arXiv.2302.06590
+  - title: "No Two Developers Think Alike: How Problem-Solving Styles and Experience Shape Needs in Conversational Interaction with Copilot"
+    type: article
+    authors:
+      - family-names: Richards
+        given-names: Jonan
+      - family-names: Alves de Oliveira
+        given-names: Bruno
+      - family-names: Oliveira
+        given-names: Iury
+      - family-names: Wiese
+        given-names: Igor
+      - family-names: Wessel
+        given-names: Mairieli
+    journal: arXiv preprint
+    year: 2026
+    url: https://arxiv.org/abs/2606.19216
+  - title: "Rethinking Productivity in Software Engineering"
+    type: book
+    authors:
+      - family-names: Sadowski
+        given-names: Caitlin
+      - family-names: Zimmermann
+        given-names: Thomas
+    editors:
+      - family-names: Sadowski
+        given-names: Caitlin
+      - family-names: Zimmermann
+        given-names: Thomas
+    publisher:
+      name: Apress
+    year: 2019
+    isbn: "9781484242216"
+  - title: "Developer Productivity with and Without GitHub Copilot: A Longitudinal Mixed-Methods Case Study"
+    type: conference-paper
+    authors:
+      - family-names: Stray
+        given-names: Viktoria
+      - family-names: Brandtzæg
+        given-names: Elias Goldmann
+      - family-names: Wivestad
+        given-names: Viggo
+      - family-names: Barbala
+        given-names: Astri
+      - family-names: Moe
+        given-names: Nils Brede
+    collection-title: Proceedings of the 59th Hawaii International Conference on System Sciences
+    year: 2026
+    doi: 10.24251/hicss.2026.880
+  - title: "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education"
+    type: article
+    authors:
+      - family-names: Stromberg
+        given-names: David
+      - family-names: Lei
+        given-names: Victor
+      - family-names: Wu
+        given-names: Yanhui
+    journal: SSRN
+    year: 2026
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618
