@@ -19,6 +19,13 @@ exercises: 15
 
 **Note:** Some of the content on this page is adapted from [The Carpentries Instructor Training curriculum](https://carpentries.github.io/instructor-training/01-welcome.html).
 
+::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+[A template Etherpad for the training](https://pad.carpentries.org/genai-in-workshops-template) is available.
+Make a copy and encourage the participants to contribute to shared notes there.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::  discussion
 
 ## Pronouns and Names
@@ -124,7 +131,7 @@ For the multiple choice questions below, please place an "X" next to the respons
 3. **How helpful or unhelpful do you think genAI tools are for novices learning to code?**
     * Very helpful
     * Helpful
-    * Neither helpful or unhelpful
+    * Neither helpful or unhelpful / it depends
     * Unhelpful
     * Very unhelpful
 
@@ -143,6 +150,7 @@ The relatively rapid and widespread adoption of genAI tools by learners and stud
 We currently lack research insights, backed up by data from robust, controlled studies, to inform a new approach to teaching workshops.
 Instead of presenting proven strategies for Instructors to adopt in their workshops, this Bonus Module refers to the key concepts that underpin the Instructor Training curriculum and examines the implications of genAI tools in that context.
 Through a series of exercises and facilitated discussions, participants will explore the potential impacts on learners of genAI tool use and strategies they could pursue to ensure that our workshops continue to empower those learners to adopt good practices.
+Although we cannot yet provide guidance backed by strong evidence, we recommend some approaches that Instructors can adopt in their workshops and identify points where uncertainty remains.
 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 

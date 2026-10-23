@@ -19,7 +19,7 @@ exercises: 15
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-[Guided practice is a central principle in Carpentries Instructor Training](https://carpentries.github.io/instructor-training/02-practice-learning.html#the-carpentries-pedagogical-model).
+[Guided practice is a central principle of Carpentries Instructor Training](https://carpentries.github.io/instructor-training/02-practice-learning.html#the-carpentries-pedagogical-model).
 We provide learners with guided practice during a workshop and equip them with sufficient expertise to continue guiding their own practice after they leave.
 Novices need this initial guided instruction because they do not have sufficient expertise to know what they do not know or to articulate what they want to do.
 
