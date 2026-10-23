@@ -247,7 +247,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="landscape.html">2. The GenAI Landscape</a>
+        <a href="landscape.html">2. Modes of Interaction with GenAI</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -403,7 +403,7 @@
         
 <section id="aio-introduction"><p>Content from <a href="introduction.html">Welcome</a></p>
 <hr>
-<p>Last updated on 2026-06-29 |
+<p>Last updated on 2026-10-23 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -464,12 +464,9 @@ listed when participants provide them.</p>
 <div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
-  <h3 class="accordion-header" id="headingSpoiler1">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
-  Further reading on pronouns
-  </h3>
+  <h3 class="accordion-header" id="headingSpoiler1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Further reading on pronouns </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <p>The resources below can provide additional guidance on respectful
 pronoun usage:</p>
@@ -596,7 +593,7 @@ novices learning to code?</strong>
 <ul>
 <li>Very helpful</li>
 <li>Helpful</li>
-<li>Neither helpful or unhelpful</li>
+<li>Neither helpful or unhelpful / it depends</li>
 <li>Unhelpful</li>
 <li>Very unhelpful</li>
 </ul>
@@ -630,7 +627,10 @@ implications of genAI tools in that context. Through a series of
 exercises and facilitated discussions, participants will explore the
 potential impacts on learners of genAI tool use and strategies they
 could pursue to ensure that our workshops continue to empower those
-learners to adopt good practices.</p>
+learners to adopt good practices. Although we cannot yet provide
+guidance backed by strong evidence, we recommend some approaches that
+Instructors can adopt in their workshops and identify points where
+uncertainty remains.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -650,9 +650,9 @@ tools in that context.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-landscape"><p>Content from <a href="landscape.html">The GenAI Landscape</a></p>
+</section></section><section id="aio-landscape"><p>Content from <a href="landscape.html">Modes of Interaction with GenAI</a></p>
 <hr>
-<p>Last updated on 2026-06-16 |
+<p>Last updated on 2026-10-23 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/landscape.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -704,15 +704,18 @@ CC-BY 4.0</a>).</p>
 </div>
 </div>
 </div>
-<p>AI coding assistants come in many forms. Here is an overview of the
-major categories and tools.</p>
-<section><h2 class="section-heading" id="chatbots">Chatbots<a class="anchor" aria-label="anchor" href="#chatbots"></a>
+<p>AI coding assistance comes in many forms. Here is an overview of the
+different ways that users interact with these tools.</p>
+<section><h2 class="section-heading" id="dialogue-with-a-chatbot">Dialogue with a chatbot<a class="anchor" aria-label="anchor" href="#dialogue-with-a-chatbot"></a>
 </h2>
 <hr class="half-width">
 <figure><img src="./fig/cr_intro_chatbot.png" alt="In this scenario, you type or copy/paste prompts into a chatbot interface (usually a web UI) and copy/paste the code you get back as a response into an IDE or another environment where it can be executed." class="figure mx-auto d-block"></figure><p>The most widely-used mode of interaction with genAI models is the
-chatbot. Most users interact with a chatbot via an app or web
-interface.</p>
-</section><section><h2 class="section-heading" id="ide-integrated-assistants">IDE-integrated Assistants<a class="anchor" aria-label="anchor" href="#ide-integrated-assistants"></a>
+chatbot. Most users interact with a chatbot via an app or web interface.
+Conversations generally consist of back-and-forth exchanges of
+relatively short messages. Some chatbot tools have access to a compute
+environment and the ability to run tools, search the internet, etc,
+while others are more limited.</p>
+</section><section><h2 class="section-heading" id="ide-integrations">IDE integrations<a class="anchor" aria-label="anchor" href="#ide-integrations"></a>
 </h2>
 <hr class="half-width">
 <figure><img src="./fig/cr_intro_ide_integ.png" alt="In this scenario, you work with a GenAI model through an extension or integration to an IDE. The model has access to the project files and processes this information into its context." class="figure mx-auto d-block"></figure><p>Another mode of interaction for those developing software is the use
@@ -729,15 +732,17 @@ IDEs that boast more extensive integration.</p>
 </section><section><h2 class="section-heading" id="agentic-coding-tools">Agentic Coding Tools<a class="anchor" aria-label="anchor" href="#agentic-coding-tools"></a>
 </h2>
 <hr class="half-width">
-<figure><img src="./fig/cr_intro_agentic.png" alt="In this scenario, you provide a high-level description of a task that you want an AI agent to perform. The agent is able to execute software on the system, read and edit files, perform version control operations, etc." class="figure mx-auto d-block"></figure><p>Coding agents are applications that allow the model to directly use
-tools, executing commands on the system and processing feedback from
-those commands (e.g., reading error messages and the contents of output
-files). The user provides a description of the task they want to achieve
-to the agent, which processes those instructions and acts on the user’s
-behalf. The agent may read and write files, including new programs, run
-commands on the system, process feedback, potentially run new commands
-based on the results, and so on until it gets stuck, is interrupted, or
-determines that the task has been completed.</p>
+<figure><img src="./fig/cr_intro_agentic.png" alt="In this scenario, you provide a high-level description of a task that you want an AI agent to perform. The agent is able to execute software on the system, read and edit files, perform version control operations, etc." class="figure mx-auto d-block"></figure><p>The final mode of interaction discussed here is the operation of
+<em>coding agents</em>. These are applications that allow the model to
+directly use tools, executing commands on the system and processing
+feedback from those commands (e.g., reading error messages and the
+contents of output files). The user provides a description of the task
+they want to achieve to the agent, which processes those instructions
+and acts on the user’s behalf. The agent may read and write files,
+including new programs, run commands on the system, process feedback,
+potentially run new commands based on the results, and so on until it
+gets stuck, is interrupted, or determines that the task has been
+completed.</p>
 <p>This is the most powerful mode of interaction and the mode with the
 highest risk, since the model can act quickly in ways that affect the
 system it is running on.</p>
@@ -748,14 +753,18 @@ system it is running on.</p>
 <span class="callout-header">Callout</span>
 <div class="callout-inner">
 <div class="callout-content">
-<p>In reality, AI coding tools exist on a spectrum with many hybrids:
-PR-native agents, review bots, orchestration tools, local-first options,
-and more. The boundary between chatbots and agents is blurred too. For
-example, browser-based chat interfaces connect to models with the
-ability to run tools in a cloud instance, search the internet, attach
-files, etc.</p>
-<p>See Code Refinery’s resource, <a href="https://coderefinery.github.io/coding-with-ai/appendix-spectrum/" class="external-link"><em>The
+<p>In reality, AI coding tools exist on a spectrum with many hybrids,
+and the boundaries are blurry between these modes of interaction. For
+example, some browser-based chat interfaces are now similar to
+locally-run agent tools, running in a cloud-hosted environment where
+they have the ability to install and run tools. Review Code Refinery’s
+resource, <a href="https://coderefinery.github.io/coding-with-ai/appendix-spectrum/" class="external-link"><em>The
 Full Spectrum of AI Coding Tools</em></a> for an extended taxonomy.</p>
+<p>Furthermore, the rate of change in AI (coding) tools is extremely
+fast, and access to the most advanced tooling is unequally distributed.
+We try to discuss the usage of these tools in general during this
+training, but the most appropriate actions to take in your workshops may
+differ depending on your local context.</p>
 </div>
 </div>
 </div>
@@ -800,7 +809,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-practice"><p>Content from <a href="practice.html">Building Skill with Practice</a></p>
 <hr>
-<p>Last updated on 2026-08-21 |
+<p>Last updated on 2026-10-23 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/practice.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -840,7 +849,7 @@ affect the relative importance of the skills we teach.</li>
 </div>
 </div>
 <p><a href="https://carpentries.github.io/instructor-training/02-practice-learning.html#the-carpentries-pedagogical-model" class="external-link">Guided
-practice is a central principle in Carpentries Instructor Training</a>.
+practice is a central principle of Carpentries Instructor Training</a>.
 We provide learners with guided practice during a workshop and equip
 them with sufficient expertise to continue guiding their own practice
 after they leave. Novices need this initial guided instruction because
@@ -893,7 +902,7 @@ elsewhere in the episode, etc.</p>
   Suggested Lessons
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <p>General notes:</p>
 <ul>
@@ -1055,7 +1064,7 @@ exercises in Carpentries lessons.</li>
 </div>
 </div></section><section id="aio-expertise"><p>Content from <a href="expertise.html">Expertise and Instruction</a></p>
 <hr>
-<p>Last updated on 2026-08-24 |
+<p>Last updated on 2026-10-23 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/expertise.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1118,7 +1127,7 @@ not know</em>. This means that a novice cannot articulate what they want
 to do, because they may not yet know what it is.</p>
 <p>To keep improving the results they receive, and take responsibility
 for AI-generated outputs, learners must build their own expertise.</p>
-<p>In a recent study of secondary school pupils in China, <a href="reference.html#Stromberg2026">Stromberg, Lei, and Wu</a> found
+<p>In a study of secondary school pupils in China, published in 2026, <a href="reference.html#Stromberg2026">Stromberg, Lei, and Wu</a> found
 that AI use offers immediate benefits to students in terms of homework
 completion time and the quality of work produced, followed by growing
 negative impact on exam scores (where no AI was allowed). No penalty to
@@ -1127,36 +1136,6 @@ work. Those students who adopted AI but did not take less time over
 their homework achieved similar exam scores to those students who did
 not adopt AI, but almost none of those who adopted AI saw an improvement
 in exam scores.</p>
-<div id="is-this-good" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<span class="callout-header">Discussion</span>
-<div id="is-this-good" class="callout-inner">
-<h3 class="callout-title">Is This Good?</h3>
-<div class="callout-content">
-<p>One interpretation of the results summarised above is that genAI use
-is damaging to students’ education. Could there be other possible
-interpretations? If so, how plausible do you find these
-alternatives?</p>
-<div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
-  <h3 class="accordion-header" id="headingSpoiler1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Show details </h3>
-</button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
-<div class="accordion-body">
-<p>A person with an optimistic view of genAI’s potential might suggest
-that the improvements granted by AI use to students’ homework scores
-show that the exams are outdated, assessing skills that are no longer
-needed.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 <div id="how-relevant-is-this-to-our-teaching" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -1168,12 +1147,12 @@ needed.</p>
 <p>Learners at Carpentries workshops are typically adults, as opposed to
 the secondary school students studied by Stromberg, Lei, and Wu. How
 relevant do you think their findings are to our workshops?</p>
-<div id="accordionSpoiler2" class="accordion spoiler-accordion accordion-flush">
+<div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
 <div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler2" aria-expanded="false" aria-controls="collapseSpoiler2">
-  <h3 class="accordion-header" id="headingSpoiler2">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Show details </h3>
+<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
+  <h3 class="accordion-header" id="headingSpoiler1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Show details </h3>
 </button>
-<div id="collapseSpoiler2" class="accordion-collapse collapse" aria-labelledby="headingSpoiler2" data-bs-parent="#accordionSpoiler2">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
 <div class="accordion-body">
 <p>Some differences between workshops and secondary school education
 that might affect relevance:</p>
@@ -1239,15 +1218,13 @@ pull request</a> to add them to the curriculum.)</em></p>
 </div>
 </div>
 </div>
-<div id="copyingpasting-exercises" class="callout challenge">
+<div id="user-roles-and-education" class="callout">
 <div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
+<i class="callout-icon" data-feather="bell"></i>
 </div>
-<span class="callout-header">Challenge</span>
-<div id="copyingpasting-exercises" class="callout-inner">
-<h3 class="callout-title">Copying/pasting Exercises<em>
-(continued)</em>
-</h3>
+<span class="callout-header">Callout</span>
+<div id="user-roles-and-education" class="callout-inner">
+<h3 class="callout-title">User Roles and Education</h3>
 <div class="callout-content">
 <p><a href="reference.html#Richards2026">Richards et al 2026</a>
 identified five interaction modes among programmers using genAI
@@ -1269,37 +1246,15 @@ more granular changes that are carefully reviewed.</li>
 <strong>Scholar</strong> uses genAI to explain concepts or provide
 information support.</li>
 </ul>
-<div class="section level3">
-<h3 id="identifying-modes">Identifying modes<a class="anchor" aria-label="anchor" href="#identifying-modes"></a>
-</h3>
-<p>Skim the Results section of <a href="reference.html#Richards2026">Richards et al 2026</a> and identify
-the pros and cons of each of the five interaction modes for Novices,
-Competent Practitioners, and Experts <em>in their own domains</em> who
-are all Novice users of genAI.</p>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
-<div class="accordion-body">
-<ol style="list-style-type: decimal">
-<li>There is an emerging consensus that Autopilot mode has the most
+<p>There is an emerging consensus that Autopilot mode has the most
 drawbacks, both in the short term (generated solutions may be plausibly
-wrong) and long term (users will learn the least).</li>
-<li>Scholar and Navigator modes may have the best benefit-to-drawback
-ratio, as they increase the user’s knowledge rather than supplanting
-it.</li>
-<li>Technician mode is often a step toward Deputy, and that progression
-should be encouraged.</li>
-</ol>
+wrong) and long term (users will learn the least). Scholar and Navigator
+modes may have the best benefit-to-drawback ratio, as they increase the
+user’s knowledge rather than supplanting it. Once some expertise has
+been developed, Technician mode is often a step toward Deputy, and that
+progression should be encouraged.</p>
 <p>Keep in mind that all of this is provisional and subject to
 change.</p>
-</div>
 </div>
 </div>
 </div>
@@ -1321,7 +1276,7 @@ and avoid giving up their agency to genAI tools.</li>
 </div>
 </div></section><section id="aio-memory"><p>Content from <a href="memory.html">Memory and Cognitive Load</a></p>
 <hr>
-<p>Last updated on 2026-06-29 |
+<p>Last updated on 2026-10-23 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/memory.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1480,6 +1435,18 @@ prompt further to make it more helpful to a novice?</p>
 </div>
 </div>
 </div>
+<p>A common observation is that the addition of this information about
+the learner’s level of expertise produces responses with less complex
+code and a lot of additional explanation. While the code in these
+responses tends to be easier for learners to understand, the responses
+themselves are longer, often include multiple different
+options/implementations, and may be overwhelming for a novice.
+Carpentries workshops are deliberately paced slowly and structured to
+manage cognitive load for novice learners.</p>
+<p>Instructors may choose to advise learners to provide information
+about their level of expertise, the contents of the workshop(s) they
+have participated in, and other relevant context when prompting an AI
+tool for help with their coding tasks after they leave the workshop.</p>
 <div id="copy-paste-vs-peeking-at-the-solution" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -1538,7 +1505,7 @@ learning.</li>
 </div>
 </div></section><section id="aio-feedback"><p>Content from <a href="feedback.html">Building Skill with Feedback</a></p>
 <hr>
-<p>Last updated on 2026-06-29 |
+<p>Last updated on 2026-10-23 |
 
         <a href="https://github.com/carpentries/instructor-training-genai/edit/main/episodes/feedback.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1649,6 +1616,81 @@ in a workshop?</p>
 </div>
 </div>
 </div>
+<p>Strategies that you could try to encourage learners to ask questions
+to helpers and Instructors rather than a chatbot during a workshop
+include:</p>
+<ul>
+<li>Explain the importance of questions and discussion feedback to you,
+and how that feedback influences your approach throughout the workshop.
+(Refer to <a href="#setting-expectations-at-a-workshop">Setting
+Expectations at a Workshop</a> below.)</li>
+<li>Use pair programming and small group discussion for more exercises.
+These formats will encourage discussion among learners and may make them
+hesitate and ask one another when they are unsure before they refer to a
+chatbot.</li>
+</ul>
+<p>The availability of answers from a chatbot means that it is more
+important than ever for us to create and maintain a <strong>positive
+learning environment</strong> in our workshops. If learners perceive the
+Instructors and helpers to be patient, friendly, and approachable (as
+well as knowledgable and capable of providing accessible answers), they
+will be more likely to turn to them when they get stuck.</p>
+<p>The way that you acknowledge and respond to your own mistakes can be
+a model of behaviour for learners to follow. The fallibility of the
+Instructor can be inspiring to learners who may be reluctant to
+acknowledge when they do not know or understand something they feel that
+they should.</p>
+<div id="setting-expectations-at-a-workshop" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="setting-expectations-at-a-workshop" class="callout-inner">
+<h3 class="callout-title">Setting Expectations at a Workshop</h3>
+<div class="callout-content">
+<p>Address the use of chatbots directly and early in your workshops, and
+set expectations with your learners about how to make the most of the
+workshop. Set aside a few minutes during the workshop introduction to
+cover some or all of the following points:</p>
+<ul>
+<li>Summarise the key points from Instructor Training about how learning
+works, and use these to discourage the use of chatbots during the
+workshop.
+<ul>
+<li>Expertise is built through guided practice, and exercise must be
+challenging to be useful.</li>
+<li>Instructors will manage learners’ cognitive load throughout the
+workshop: the order and pacing is deliberate to help learners build a
+mental model so that they can continue to learn after they leave.</li>
+<li>Motivation is essential for learning: encourage learners to identify
+and connect with their motivation for joining the workshop.</li>
+<li>Feedback (to the learner and the Instructor) is an essential element
+of the workshop to ensure learning.</li>
+</ul>
+</li>
+<li>Explain that the benefit that learners get from the workshop will be
+proportional to the effort they put into it: the more they apply
+themselves to the tasks and discussions in the workshop, the more they
+will develop their own ability, independent of any technological
+aids.</li>
+<li>Emphasise that questions are welcome and even encouraged. Introduce
+the helpers and co-Instructors and try to provide some details that will
+encourage learners to refer to them when they need. Explain how
+questions asked by one learner are often shared by others, and that the
+answers will probably benefit everyone.</li>
+<li>Explain the value of learning the basics in the workshop to learners
+who are keen to start using AI tools to generate their code: the
+foundational mental model that they will acquire by engaging with the
+workshop will help them make more effective use of AI assistance
+afterwards.</li>
+<li>The key takeaways from the Stromberg et al paper make a compelling
+case for learners not to use AI to help them complete exercises.</li>
+<li>Combine this overview of your expectations of learners with a
+discussion of what they can expect from you in return.</li>
+</ul>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -1660,6 +1702,8 @@ in a workshop?</p>
 <li>It can be difficut to gather helpful feedback if learners are using
 a chatbot instead of requesting assistance from Instructors and
 helpers.</li>
+<li>Being explicit about your expectations of learners and they ways
+they should/should not use AI tools in the workshop.</li>
 </ul>
 </div>
 </div>
@@ -2019,8 +2063,8 @@ aim to teach remain as important as ever.</li>
   "url": "https://carpentries.github.io/instructor-training-genai/aio.html",
   "identifier": "https://carpentries.github.io/instructor-training-genai/aio.html",
   "dateCreated": "2026-06-04",
-  "dateModified": "2026-10-21",
-  "datePublished": "2026-10-21"
+  "dateModified": "2026-10-23",
+  "datePublished": "2026-10-23"
 }
 
   </script><script>
